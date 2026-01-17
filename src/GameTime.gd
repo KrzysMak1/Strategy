@@ -3,7 +3,7 @@ class_name GameTime
 
 signal ticked(delta_hours)
 
-var speed_levels := [0.0, 1.0, 2.0, 4.0]
+var speed_levels := [0.0, 1.0, 2.0, 3.0, 4.0, 5.0]
 var speed_index := 1
 var hour_accumulator := 0.0
 

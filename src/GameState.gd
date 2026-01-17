@@ -13,6 +13,8 @@ var focus_trees := {}
 var technologies := {}
 var events := {}
 var decisions := {}
+var scenarios := {}
+var scenario_id := ""
 
 var selected_country_id := ""
 var selected_province_id := ""
@@ -39,6 +41,7 @@ var event_system := EventSystem.new()
 var decision_system := DecisionSystem.new()
 var ai_controller := AIController.new()
 var logger := Logger.new()
+var event_bus := EventBus.new()
 
 var armies := {}
 var stockpiles := {}
@@ -70,6 +73,7 @@ func _ready() -> void:
     add_child(event_system)
     add_child(decision_system)
     add_child(ai_controller)
+    add_child(event_bus)
     _load_data()
 
 func _load_data() -> void:
@@ -83,10 +87,14 @@ func _load_data() -> void:
     technologies = data.get("technologies", {})
     events = data.get("events", {})
     decisions = data.get("decisions", {})
+    scenarios = data.get("scenarios", {})
     decision_system.load_decisions(data.get("decisions", {}))
     event_system.load_events(data.get("events", {}))
-    selected_country_id = countries.keys()[0] if countries.size() > 0 else ""
     _initialize_country_state()
+    if not scenarios.is_empty():
+        scenario_id = _pick_default_scenario()
+        _apply_scenario(scenario_id)
+    selected_country_id = _pick_default_country()
     emit_signal("state_updated")
 
 func _initialize_country_state() -> void:
@@ -104,6 +112,63 @@ func _initialize_country_state() -> void:
             if a == b:
                 continue
             diplomacy_system.set_relation(a, b, 0.0)
+
+func _pick_default_scenario() -> String:
+    var scenario_keys = scenarios.keys()
+    scenario_keys.sort()
+    return scenario_keys[0] if not scenario_keys.is_empty() else ""
+
+func _pick_default_country() -> String:
+    var scenario = scenarios.get(scenario_id, {})
+    var playable = scenario.get("playable_countries", [])
+    if not playable.is_empty():
+        return playable[0]
+    var country_keys = countries.keys()
+    country_keys.sort()
+    return country_keys[0] if not country_keys.is_empty() else ""
+
+func set_scenario(new_scenario_id: String) -> void:
+    if new_scenario_id == "":
+        return
+    scenario_id = new_scenario_id
+    _apply_scenario(scenario_id)
+    if not scenarios.get(scenario_id, {}).get("playable_countries", []).has(selected_country_id):
+        selected_country_id = _pick_default_country()
+    emit_signal("state_updated")
+
+func _apply_scenario(target_scenario_id: String) -> void:
+    var scenario = scenarios.get(target_scenario_id, {})
+    if scenario.is_empty():
+        return
+    var start_date = scenario.get("start_date", "")
+    var date_parts = _parse_date(start_date)
+    if date_parts.size() == 3:
+        current_year = date_parts[0]
+        current_month = date_parts[1]
+        current_day = date_parts[2]
+    world_tension = float(scenario.get("world_tension", world_tension))
+    alliances = scenario.get("alliances", {}).duplicate(true)
+    wars = scenario.get("wars", []).duplicate(true)
+    var relations_list = scenario.get("relations", [])
+    for relation in relations_list:
+        var a = relation.get("a", "")
+        var b = relation.get("b", "")
+        if a == "" or b == "":
+            continue
+        var value = float(relation.get("value", 0.0))
+        diplomacy_system.set_relation(a, b, value)
+    var starting_focuses = scenario.get("starting_focuses", {})
+    for country_id in starting_focuses.keys():
+        focus_state[country_id] = starting_focuses[country_id]
+        focus_progress[country_id] = 0.0
+
+func _parse_date(value: String) -> Array:
+    var parts = value.split("-")
+    if parts.size() != 3:
+        return []
+    if not parts[0].is_valid_int() or not parts[1].is_valid_int() or not parts[2].is_valid_int():
+        return []
+    return [int(parts[0]), int(parts[1]), int(parts[2])]
 
 func get_country(country_id: String) -> Dictionary:
     return countries.get(country_id, {})

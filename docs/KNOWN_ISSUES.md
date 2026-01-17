@@ -11,4 +11,5 @@ Checklist największych braków po szybkim audycie repo:
 - [ ] ProductionSystem nie ma efficiency i brakuje podziału na kategorie sprzętu.
 - [ ] Research/Focus listy nie mają filtrów i jasnych opisów efektów.
 - [ ] UI paneli (Focus/Research/Production/etc.) brak pełnej ergonomii na małych ekranach.
-- [ ] Brak wersjonowania zapisu (save_version + migrator).
+- [ ] Scenariusze nie nadpisują właścicieli prowincji ani armii (brak startowych override'ów mapy).
+- [ ] Tryb step-day (debug) nie jest jeszcze dostępny w UI.

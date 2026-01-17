@@ -1,0 +1,122 @@
+{
+  "europe_1936": {
+    "id": "europe_1936",
+    "name": "Europa 1936",
+    "description": "Pełny start kampanii. Świat w napięciu, ale wojna jeszcze się nie rozpoczęła.",
+    "start_date": "1936-01-01",
+    "end_date": "1948-12-31",
+    "world_tension": 0.08,
+    "playable_countries": ["GER", "POL", "SOV", "ENG", "FRA", "USA", "ITA", "JPN"],
+    "alliances": {
+      "allies": {
+        "name": "Sojusznicy",
+        "members": ["ENG", "FRA", "USA"]
+      },
+      "comintern": {
+        "name": "Komintern",
+        "members": ["SOV"]
+      }
+    },
+    "relations": [
+      { "a": "GER", "b": "POL", "value": -0.45 },
+      { "a": "GER", "b": "FRA", "value": -0.35 },
+      { "a": "GER", "b": "ENG", "value": -0.3 },
+      { "a": "SOV", "b": "GER", "value": -0.2 },
+      { "a": "USA", "b": "ENG", "value": 0.35 },
+      { "a": "USA", "b": "FRA", "value": 0.3 }
+    ],
+    "wars": [],
+    "starting_focuses": {
+      "GER": "GER_01",
+      "POL": "POL_01",
+      "SOV": "SOV_01",
+      "ENG": "ENG_01",
+      "FRA": "FRA_01"
+    }
+  },
+  "europe_1939": {
+    "id": "europe_1939",
+    "name": "Europa 1939",
+    "description": "Skrócony start wojenny. Konflikt w Europie właśnie się rozpoczyna.",
+    "start_date": "1939-09-01",
+    "end_date": "1948-12-31",
+    "world_tension": 0.62,
+    "playable_countries": ["GER", "POL", "SOV", "ENG", "FRA", "USA", "ITA", "JPN"],
+    "alliances": {
+      "allies": {
+        "name": "Sojusznicy",
+        "members": ["ENG", "FRA", "POL"]
+      },
+      "axis": {
+        "name": "Oś",
+        "members": ["GER", "ITA", "JPN"]
+      }
+    },
+    "relations": [
+      { "a": "GER", "b": "POL", "value": -0.9 },
+      { "a": "ENG", "b": "POL", "value": 0.4 },
+      { "a": "FRA", "b": "POL", "value": 0.35 },
+      { "a": "GER", "b": "ENG", "value": -0.8 },
+      { "a": "GER", "b": "FRA", "value": -0.8 }
+    ],
+    "wars": [
+      {
+        "attackers": ["GER"],
+        "defenders": ["POL"],
+        "start_date": "1939-09-01"
+      }
+    ],
+    "starting_focuses": {
+      "GER": "GER_06",
+      "POL": "POL_03",
+      "ENG": "ENG_06",
+      "FRA": "FRA_04"
+    }
+  },
+  "europe_1941": {
+    "id": "europe_1941",
+    "name": "Europa 1941",
+    "description": "Skrócony start. Wielka wojna trwa, front wschodni wybucha.",
+    "start_date": "1941-06-22",
+    "end_date": "1948-12-31",
+    "world_tension": 0.85,
+    "playable_countries": ["GER", "SOV", "ENG", "USA", "ITA", "JPN"],
+    "alliances": {
+      "allies": {
+        "name": "Sojusznicy",
+        "members": ["ENG", "USA"]
+      },
+      "axis": {
+        "name": "Oś",
+        "members": ["GER", "ITA", "JPN"]
+      },
+      "comintern": {
+        "name": "Komintern",
+        "members": ["SOV"]
+      }
+    },
+    "relations": [
+      { "a": "GER", "b": "SOV", "value": -0.95 },
+      { "a": "ENG", "b": "USA", "value": 0.6 },
+      { "a": "GER", "b": "USA", "value": -0.65 }
+    ],
+    "wars": [
+      {
+        "attackers": ["GER", "ITA"],
+        "defenders": ["ENG"],
+        "start_date": "1940-06-10"
+      },
+      {
+        "attackers": ["GER"],
+        "defenders": ["SOV"],
+        "start_date": "1941-06-22"
+      }
+    ],
+    "starting_focuses": {
+      "GER": "GER_08",
+      "SOV": "SOV_06",
+      "ENG": "ENG_07",
+      "USA": "USA_04"
+    }
+  }
+}

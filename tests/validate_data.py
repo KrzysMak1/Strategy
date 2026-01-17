@@ -49,10 +49,22 @@ def test_decisions_armies():
     assert len(decisions) >= 3
     assert len(armies) >= 8
 
+
+def test_scenarios():
+    scenarios = load_json(DATA / "scenarios.json")
+    assert len(scenarios) >= 3
+    for scenario_id, scenario in scenarios.items():
+        assert scenario["id"] == scenario_id
+        assert "name" in scenario
+        assert "start_date" in scenario
+        assert "end_date" in scenario
+        assert "playable_countries" in scenario
+
 if __name__ == "__main__":
     test_countries()
     test_regions()
     test_focus_trees()
     test_technologies_units_events()
     test_decisions_armies()
+    test_scenarios()
     print("Data validation passed.")
