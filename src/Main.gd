@@ -9,6 +9,8 @@ extends Node2D
 @onready var ui_province_label: Label = $CanvasLayer/UI/RightPanel/ProvinceLabel
 @onready var ui_army_label: Label = $CanvasLayer/UI/RightPanel/ArmyLabel
 @onready var ui_debug_label: Label = $CanvasLayer/UI/DebugPanel/DebugLabel
+@onready var error_banner: Panel = $CanvasLayer/UI/ErrorBanner
+@onready var error_banner_label: Label = $CanvasLayer/UI/ErrorBanner/ErrorBannerLabel
 @onready var ui_focus_tree: Control = $CanvasLayer/UI/Tabs/FocusTab/ScrollContainer/FocusTreeView
 @onready var ui_production_list: ItemList = $CanvasLayer/UI/Tabs/ProductionTab/ProductionList
 @onready var ui_research_list: ItemList = $CanvasLayer/UI/Tabs/ResearchTab/TechList
@@ -25,6 +27,9 @@ var game_state: GameState
 var battle_system := BattleSystem.new()
 
 var selected_army_id := ""
+var log_buffer: Array = []
+
+const LOG_LIMIT := 50
 
 func _ready() -> void:
     randomize()
@@ -34,6 +39,7 @@ func _ready() -> void:
 
     game_state.time_system.connect("ticked", _on_tick)
     game_state.connect("state_updated", _update_ui)
+    game_state.logger.entry_added.connect(_on_log_entry)
     map_controller.connect("province_clicked", _on_province_clicked)
     map_controller.setup(game_state.provinces, camera)
     map_controller.set_armies(game_state.armies)
@@ -43,6 +49,8 @@ func _ready() -> void:
     if not game_state.data_errors.is_empty():
         data_error_panel.visible = true
         data_error_text.text = "[b]Błędy danych:[/b]\n" + "\n".join(game_state.data_errors)
+        for error in game_state.data_errors:
+            game_state.logger.error(error, "Data")
 
     if ProjectSettings.get_setting("frontline/load_on_start", false):
         game_state.load_state()
@@ -326,4 +334,22 @@ func _show_event(event_data: Dictionary) -> void:
         event_buttons.add_child(button)
 
 func _log(message: String) -> void:
-    ui_log.append_text("%s\n" % message)
+    game_state.logger.info(message, "Game")
+
+func _on_log_entry(entry: Dictionary) -> void:
+    var level = entry.get("level", "INFO")
+    var source = entry.get("source", "")
+    var message = entry.get("message", "")
+    var prefix = "[%s]" % level
+    if source != "":
+        prefix = "%s [%s]" % [prefix, source]
+    log_buffer.append("%s %s" % [prefix, message])
+    if log_buffer.size() > LOG_LIMIT:
+        log_buffer.pop_front()
+    ui_log.text = "\n".join(log_buffer)
+    if level == "ERROR":
+        _show_error_banner(message)
+
+func _show_error_banner(message: String) -> void:
+    error_banner_label.text = "Błąd: %s" % message
+    error_banner.visible = true
