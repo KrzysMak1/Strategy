@@ -1,0 +1,222 @@
+{
+  "infantry_equipment": {
+    "id": "infantry_equipment",
+    "name": "Bro\u0144 piechoty",
+    "type": "equipment",
+    "attack": 3,
+    "defense": 3,
+    "armor": 0,
+    "piercing": 1,
+    "organization": 0,
+    "morale": 0
+  },
+  "support_equipment": {
+    "id": "support_equipment",
+    "name": "Wsparcie piechoty",
+    "type": "equipment",
+    "attack": 1,
+    "defense": 1,
+    "armor": 0,
+    "piercing": 0,
+    "organization": 0,
+    "morale": 0
+  },
+  "artillery": {
+    "id": "artillery",
+    "name": "Artyleria polowa",
+    "type": "support",
+    "attack": 10,
+    "defense": 3,
+    "armor": 0,
+    "piercing": 4,
+    "organization": 25,
+    "morale": 0.45
+  },
+  "anti_tank": {
+    "id": "anti_tank",
+    "name": "Armaty ppanc",
+    "type": "support",
+    "attack": 6,
+    "defense": 2,
+    "armor": 0,
+    "piercing": 6,
+    "organization": 20,
+    "morale": 0.4
+  },
+  "infantry": {
+    "id": "infantry",
+    "name": "Piechota",
+    "type": "infantry",
+    "attack": 6,
+    "defense": 8,
+    "armor": 0,
+    "piercing": 2,
+    "organization": 45,
+    "morale": 0.5
+  },
+  "motorized": {
+    "id": "motorized",
+    "name": "Zmotoryzowani",
+    "type": "infantry",
+    "attack": 8,
+    "defense": 7,
+    "armor": 1,
+    "piercing": 3,
+    "organization": 40,
+    "morale": 0.55
+  },
+  "mechanized": {
+    "id": "mechanized",
+    "name": "Zmechanizowani",
+    "type": "infantry",
+    "attack": 10,
+    "defense": 8,
+    "armor": 2,
+    "piercing": 4,
+    "organization": 40,
+    "morale": 0.55
+  },
+  "light_tank": {
+    "id": "light_tank",
+    "name": "Lekki czo\u0142g",
+    "type": "armor",
+    "attack": 8,
+    "defense": 5,
+    "armor": 4,
+    "piercing": 4,
+    "organization": 30,
+    "morale": 0.55
+  },
+  "medium_tank": {
+    "id": "medium_tank",
+    "name": "\u015aredni czo\u0142g",
+    "type": "armor",
+    "attack": 12,
+    "defense": 7,
+    "armor": 7,
+    "piercing": 6,
+    "organization": 35,
+    "morale": 0.6
+  },
+  "heavy_tank": {
+    "id": "heavy_tank",
+    "name": "Ci\u0119\u017cki czo\u0142g",
+    "type": "armor",
+    "attack": 15,
+    "defense": 9,
+    "armor": 10,
+    "piercing": 8,
+    "organization": 30,
+    "morale": 0.6
+  },
+  "fighter": {
+    "id": "fighter",
+    "name": "My\u015bliwiec",
+    "type": "air",
+    "attack": 9,
+    "defense": 6,
+    "armor": 0,
+    "piercing": 0,
+    "organization": 30,
+    "morale": 0.6
+  },
+  "cas": {
+    "id": "cas",
+    "name": "Samolot szturmowy",
+    "type": "air",
+    "attack": 11,
+    "defense": 5,
+    "armor": 0,
+    "piercing": 0,
+    "organization": 28,
+    "morale": 0.58
+  },
+  "bomber": {
+    "id": "bomber",
+    "name": "Bombowiec",
+    "type": "air",
+    "attack": 12,
+    "defense": 4,
+    "armor": 0,
+    "piercing": 0,
+    "organization": 25,
+    "morale": 0.55
+  },
+  "nav_bomber": {
+    "id": "nav_bomber",
+    "name": "Bombowiec morski",
+    "type": "air",
+    "attack": 10,
+    "defense": 4,
+    "armor": 0,
+    "piercing": 0,
+    "organization": 25,
+    "morale": 0.52
+  },
+  "destroyer": {
+    "id": "destroyer",
+    "name": "Niszczyciel",
+    "type": "navy",
+    "attack": 7,
+    "defense": 6,
+    "armor": 2,
+    "piercing": 4,
+    "organization": 20,
+    "morale": 0.5
+  },
+  "submarine": {
+    "id": "submarine",
+    "name": "Okr\u0119t podwodny",
+    "type": "navy",
+    "attack": 8,
+    "defense": 3,
+    "armor": 1,
+    "piercing": 5,
+    "organization": 18,
+    "morale": 0.5
+  },
+  "cruiser": {
+    "id": "cruiser",
+    "name": "Kr\u0105\u017cownik",
+    "type": "navy",
+    "attack": 11,
+    "defense": 8,
+    "armor": 4,
+    "piercing": 6,
+    "organization": 25,
+    "morale": 0.55
+  },
+  "battleship": {
+    "id": "battleship",
+    "name": "Pancernik",
+    "type": "navy",
+    "attack": 16,
+    "defense": 12,
+    "armor": 8,
+    "piercing": 8,
+    "organization": 30,
+    "morale": 0.6
+  },
+  "carrier": {
+    "id": "carrier",
+    "name": "Lotniskowiec",
+    "type": "navy",
+    "attack": 10,
+    "defense": 10,
+    "armor": 6,
+    "piercing": 4,
+    "organization": 28,
+    "morale": 0.6
+  },
+  "convoy": {
+    "id": "convoy",
+    "name": "Konw\u00f3j",
+    "type": "navy",
+    "attack": 1,
+    "defense": 2,
+    "armor": 0,
+    "piercing": 0,
+    "organization": 10,
+    "morale": 0.4
+  }
+}

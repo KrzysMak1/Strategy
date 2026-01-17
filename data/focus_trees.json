@@ -1,0 +1,2554 @@
+{
+  "GER": {
+    "id": "GER",
+    "name": "Drzewko Niemiec",
+    "nodes": [
+      {
+        "id": "GER_01",
+        "name": "GER Kierunek 1",
+        "description": "Decyzja strategiczna nr 1 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_02",
+        "name": "GER Kierunek 2",
+        "description": "Decyzja strategiczna nr 2 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_01"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_03",
+        "name": "GER Kierunek 3",
+        "description": "Decyzja strategiczna nr 3 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_02"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_04",
+        "name": "GER Kierunek 4",
+        "description": "Decyzja strategiczna nr 4 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_03"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_05",
+        "name": "GER Kierunek 5",
+        "description": "Decyzja strategiczna nr 5 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_04"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_06",
+        "name": "GER Kierunek 6",
+        "description": "Decyzja strategiczna nr 6 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_05"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_07",
+        "name": "GER Kierunek 7",
+        "description": "Decyzja strategiczna nr 7 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_06"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_08",
+        "name": "GER Kierunek 8",
+        "description": "Decyzja strategiczna nr 8 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_07"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_09",
+        "name": "GER Kierunek 9",
+        "description": "Decyzja strategiczna nr 9 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_08"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_10",
+        "name": "GER Kierunek 10",
+        "description": "Decyzja strategiczna nr 10 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_09"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_11",
+        "name": "GER Kierunek 11",
+        "description": "Decyzja strategiczna nr 11 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_10"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_12",
+        "name": "GER Kierunek 12",
+        "description": "Decyzja strategiczna nr 12 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_11"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_13",
+        "name": "GER Kierunek 13",
+        "description": "Decyzja strategiczna nr 13 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_12"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_14",
+        "name": "GER Kierunek 14",
+        "description": "Decyzja strategiczna nr 14 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_13"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_15",
+        "name": "GER Kierunek 15",
+        "description": "Alternatywna \u015bcie\u017cka polityczna nr 15.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_14"
+        ],
+        "effects": {
+          "world_tension": -0.01
+        }
+      },
+      {
+        "id": "GER_16",
+        "name": "GER Kierunek 16",
+        "description": "Decyzja strategiczna nr 16 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_15"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_17",
+        "name": "GER Kierunek 17",
+        "description": "Decyzja strategiczna nr 17 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_16"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_18",
+        "name": "GER Kierunek 18",
+        "description": "Decyzja strategiczna nr 18 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_17"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_19",
+        "name": "GER Kierunek 19",
+        "description": "Decyzja strategiczna nr 19 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_18"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_20",
+        "name": "GER Kierunek 20",
+        "description": "Decyzja strategiczna nr 20 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_19"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_21",
+        "name": "GER Kierunek 21",
+        "description": "Decyzja strategiczna nr 21 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_20"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_22",
+        "name": "GER Kierunek 22",
+        "description": "Decyzja strategiczna nr 22 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_21"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_23",
+        "name": "GER Kierunek 23",
+        "description": "Decyzja strategiczna nr 23 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_22"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_24",
+        "name": "GER Kierunek 24",
+        "description": "Decyzja strategiczna nr 24 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_23"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_25",
+        "name": "GER Kierunek 25",
+        "description": "Decyzja strategiczna nr 25 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_24"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_26",
+        "name": "GER Kierunek 26",
+        "description": "Decyzja strategiczna nr 26 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_25"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_27",
+        "name": "GER Kierunek 27",
+        "description": "Decyzja strategiczna nr 27 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_26"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_28",
+        "name": "GER Kierunek 28",
+        "description": "Decyzja strategiczna nr 28 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_27"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_29",
+        "name": "GER Kierunek 29",
+        "description": "Decyzja strategiczna nr 29 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_28"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_30",
+        "name": "GER Kierunek 30",
+        "description": "Decyzja strategiczna nr 30 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_29"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_31",
+        "name": "GER Kierunek 31",
+        "description": "Decyzja strategiczna nr 31 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_30"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_32",
+        "name": "GER Kierunek 32",
+        "description": "Decyzja strategiczna nr 32 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_31"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_33",
+        "name": "GER Kierunek 33",
+        "description": "Decyzja strategiczna nr 33 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_32"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_34",
+        "name": "GER Kierunek 34",
+        "description": "Decyzja strategiczna nr 34 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_33"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_35",
+        "name": "GER Kierunek 35",
+        "description": "Decyzja strategiczna nr 35 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_34"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_36",
+        "name": "GER Kierunek 36",
+        "description": "Decyzja strategiczna nr 36 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_35"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_37",
+        "name": "GER Kierunek 37",
+        "description": "Decyzja strategiczna nr 37 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_36"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_38",
+        "name": "GER Kierunek 38",
+        "description": "Decyzja strategiczna nr 38 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_37"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "GER_39",
+        "name": "GER Kierunek 39",
+        "description": "Decyzja strategiczna nr 39 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_38"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "GER_40",
+        "name": "GER Kierunek 40",
+        "description": "Decyzja strategiczna nr 40 dla GER.",
+        "time_hours": 168,
+        "prerequisites": [
+          "GER_39"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      }
+    ]
+  },
+  "POL": {
+    "id": "POL",
+    "name": "Drzewko Polski",
+    "nodes": [
+      {
+        "id": "POL_01",
+        "name": "POL Kierunek 1",
+        "description": "Decyzja strategiczna nr 1 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_02",
+        "name": "POL Kierunek 2",
+        "description": "Decyzja strategiczna nr 2 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_01"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_03",
+        "name": "POL Kierunek 3",
+        "description": "Decyzja strategiczna nr 3 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_02"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "POL_04",
+        "name": "POL Kierunek 4",
+        "description": "Decyzja strategiczna nr 4 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_03"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_05",
+        "name": "POL Kierunek 5",
+        "description": "Decyzja strategiczna nr 5 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_04"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_06",
+        "name": "POL Kierunek 6",
+        "description": "Decyzja strategiczna nr 6 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_05"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "POL_07",
+        "name": "POL Kierunek 7",
+        "description": "Decyzja strategiczna nr 7 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_06"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_08",
+        "name": "POL Kierunek 8",
+        "description": "Decyzja strategiczna nr 8 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_07"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_09",
+        "name": "POL Kierunek 9",
+        "description": "Decyzja strategiczna nr 9 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_08"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "POL_10",
+        "name": "POL Kierunek 10",
+        "description": "Decyzja strategiczna nr 10 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_09"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_11",
+        "name": "POL Kierunek 11",
+        "description": "Decyzja strategiczna nr 11 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_10"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_12",
+        "name": "POL Kierunek 12",
+        "description": "Decyzja strategiczna nr 12 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_11"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "POL_13",
+        "name": "POL Kierunek 13",
+        "description": "Decyzja strategiczna nr 13 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_12"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_14",
+        "name": "POL Kierunek 14",
+        "description": "Decyzja strategiczna nr 14 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_13"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_15",
+        "name": "POL Kierunek 15",
+        "description": "Alternatywna \u015bcie\u017cka polityczna nr 15.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_14"
+        ],
+        "effects": {
+          "world_tension": -0.01
+        }
+      },
+      {
+        "id": "POL_16",
+        "name": "POL Kierunek 16",
+        "description": "Decyzja strategiczna nr 16 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_15"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_17",
+        "name": "POL Kierunek 17",
+        "description": "Decyzja strategiczna nr 17 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_16"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_18",
+        "name": "POL Kierunek 18",
+        "description": "Decyzja strategiczna nr 18 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_17"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "POL_19",
+        "name": "POL Kierunek 19",
+        "description": "Decyzja strategiczna nr 19 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_18"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_20",
+        "name": "POL Kierunek 20",
+        "description": "Decyzja strategiczna nr 20 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_19"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_21",
+        "name": "POL Kierunek 21",
+        "description": "Decyzja strategiczna nr 21 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_20"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "POL_22",
+        "name": "POL Kierunek 22",
+        "description": "Decyzja strategiczna nr 22 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_21"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_23",
+        "name": "POL Kierunek 23",
+        "description": "Decyzja strategiczna nr 23 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_22"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_24",
+        "name": "POL Kierunek 24",
+        "description": "Decyzja strategiczna nr 24 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_23"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "POL_25",
+        "name": "POL Kierunek 25",
+        "description": "Decyzja strategiczna nr 25 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_24"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_26",
+        "name": "POL Kierunek 26",
+        "description": "Decyzja strategiczna nr 26 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_25"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_27",
+        "name": "POL Kierunek 27",
+        "description": "Decyzja strategiczna nr 27 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_26"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "POL_28",
+        "name": "POL Kierunek 28",
+        "description": "Decyzja strategiczna nr 28 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_27"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_29",
+        "name": "POL Kierunek 29",
+        "description": "Decyzja strategiczna nr 29 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_28"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_30",
+        "name": "POL Kierunek 30",
+        "description": "Decyzja strategiczna nr 30 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_29"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "POL_31",
+        "name": "POL Kierunek 31",
+        "description": "Decyzja strategiczna nr 31 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_30"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_32",
+        "name": "POL Kierunek 32",
+        "description": "Decyzja strategiczna nr 32 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_31"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_33",
+        "name": "POL Kierunek 33",
+        "description": "Decyzja strategiczna nr 33 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_32"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "POL_34",
+        "name": "POL Kierunek 34",
+        "description": "Decyzja strategiczna nr 34 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_33"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_35",
+        "name": "POL Kierunek 35",
+        "description": "Decyzja strategiczna nr 35 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_34"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_36",
+        "name": "POL Kierunek 36",
+        "description": "Decyzja strategiczna nr 36 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_35"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "POL_37",
+        "name": "POL Kierunek 37",
+        "description": "Decyzja strategiczna nr 37 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_36"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "POL_38",
+        "name": "POL Kierunek 38",
+        "description": "Decyzja strategiczna nr 38 dla POL.",
+        "time_hours": 168,
+        "prerequisites": [
+          "POL_37"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      }
+    ]
+  },
+  "SOV": {
+    "id": "SOV",
+    "name": "Drzewko ZSRR",
+    "nodes": [
+      {
+        "id": "SOV_01",
+        "name": "SOV Kierunek 1",
+        "description": "Decyzja strategiczna nr 1 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_02",
+        "name": "SOV Kierunek 2",
+        "description": "Decyzja strategiczna nr 2 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_01"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_03",
+        "name": "SOV Kierunek 3",
+        "description": "Decyzja strategiczna nr 3 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_02"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "SOV_04",
+        "name": "SOV Kierunek 4",
+        "description": "Decyzja strategiczna nr 4 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_03"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_05",
+        "name": "SOV Kierunek 5",
+        "description": "Decyzja strategiczna nr 5 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_04"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_06",
+        "name": "SOV Kierunek 6",
+        "description": "Decyzja strategiczna nr 6 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_05"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "SOV_07",
+        "name": "SOV Kierunek 7",
+        "description": "Decyzja strategiczna nr 7 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_06"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_08",
+        "name": "SOV Kierunek 8",
+        "description": "Decyzja strategiczna nr 8 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_07"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_09",
+        "name": "SOV Kierunek 9",
+        "description": "Decyzja strategiczna nr 9 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_08"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "SOV_10",
+        "name": "SOV Kierunek 10",
+        "description": "Decyzja strategiczna nr 10 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_09"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_11",
+        "name": "SOV Kierunek 11",
+        "description": "Decyzja strategiczna nr 11 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_10"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_12",
+        "name": "SOV Kierunek 12",
+        "description": "Decyzja strategiczna nr 12 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_11"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "SOV_13",
+        "name": "SOV Kierunek 13",
+        "description": "Decyzja strategiczna nr 13 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_12"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_14",
+        "name": "SOV Kierunek 14",
+        "description": "Decyzja strategiczna nr 14 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_13"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_15",
+        "name": "SOV Kierunek 15",
+        "description": "Alternatywna \u015bcie\u017cka polityczna nr 15.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_14"
+        ],
+        "effects": {
+          "world_tension": -0.01
+        }
+      },
+      {
+        "id": "SOV_16",
+        "name": "SOV Kierunek 16",
+        "description": "Decyzja strategiczna nr 16 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_15"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_17",
+        "name": "SOV Kierunek 17",
+        "description": "Decyzja strategiczna nr 17 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_16"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_18",
+        "name": "SOV Kierunek 18",
+        "description": "Decyzja strategiczna nr 18 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_17"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "SOV_19",
+        "name": "SOV Kierunek 19",
+        "description": "Decyzja strategiczna nr 19 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_18"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_20",
+        "name": "SOV Kierunek 20",
+        "description": "Decyzja strategiczna nr 20 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_19"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_21",
+        "name": "SOV Kierunek 21",
+        "description": "Decyzja strategiczna nr 21 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_20"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "SOV_22",
+        "name": "SOV Kierunek 22",
+        "description": "Decyzja strategiczna nr 22 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_21"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_23",
+        "name": "SOV Kierunek 23",
+        "description": "Decyzja strategiczna nr 23 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_22"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_24",
+        "name": "SOV Kierunek 24",
+        "description": "Decyzja strategiczna nr 24 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_23"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "SOV_25",
+        "name": "SOV Kierunek 25",
+        "description": "Decyzja strategiczna nr 25 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_24"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_26",
+        "name": "SOV Kierunek 26",
+        "description": "Decyzja strategiczna nr 26 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_25"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_27",
+        "name": "SOV Kierunek 27",
+        "description": "Decyzja strategiczna nr 27 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_26"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "SOV_28",
+        "name": "SOV Kierunek 28",
+        "description": "Decyzja strategiczna nr 28 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_27"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_29",
+        "name": "SOV Kierunek 29",
+        "description": "Decyzja strategiczna nr 29 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_28"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_30",
+        "name": "SOV Kierunek 30",
+        "description": "Decyzja strategiczna nr 30 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_29"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "SOV_31",
+        "name": "SOV Kierunek 31",
+        "description": "Decyzja strategiczna nr 31 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_30"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_32",
+        "name": "SOV Kierunek 32",
+        "description": "Decyzja strategiczna nr 32 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_31"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_33",
+        "name": "SOV Kierunek 33",
+        "description": "Decyzja strategiczna nr 33 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_32"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "SOV_34",
+        "name": "SOV Kierunek 34",
+        "description": "Decyzja strategiczna nr 34 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_33"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_35",
+        "name": "SOV Kierunek 35",
+        "description": "Decyzja strategiczna nr 35 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_34"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "SOV_36",
+        "name": "SOV Kierunek 36",
+        "description": "Decyzja strategiczna nr 36 dla SOV.",
+        "time_hours": 168,
+        "prerequisites": [
+          "SOV_35"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      }
+    ]
+  },
+  "ENG": {
+    "id": "ENG",
+    "name": "Drzewko UK",
+    "nodes": [
+      {
+        "id": "ENG_01",
+        "name": "ENG Kierunek 1",
+        "description": "Decyzja strategiczna nr 1 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_02",
+        "name": "ENG Kierunek 2",
+        "description": "Decyzja strategiczna nr 2 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_01"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_03",
+        "name": "ENG Kierunek 3",
+        "description": "Decyzja strategiczna nr 3 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_02"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "ENG_04",
+        "name": "ENG Kierunek 4",
+        "description": "Decyzja strategiczna nr 4 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_03"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_05",
+        "name": "ENG Kierunek 5",
+        "description": "Decyzja strategiczna nr 5 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_04"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_06",
+        "name": "ENG Kierunek 6",
+        "description": "Decyzja strategiczna nr 6 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_05"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "ENG_07",
+        "name": "ENG Kierunek 7",
+        "description": "Decyzja strategiczna nr 7 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_06"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_08",
+        "name": "ENG Kierunek 8",
+        "description": "Decyzja strategiczna nr 8 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_07"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_09",
+        "name": "ENG Kierunek 9",
+        "description": "Decyzja strategiczna nr 9 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_08"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "ENG_10",
+        "name": "ENG Kierunek 10",
+        "description": "Decyzja strategiczna nr 10 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_09"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_11",
+        "name": "ENG Kierunek 11",
+        "description": "Decyzja strategiczna nr 11 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_10"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_12",
+        "name": "ENG Kierunek 12",
+        "description": "Decyzja strategiczna nr 12 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_11"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "ENG_13",
+        "name": "ENG Kierunek 13",
+        "description": "Decyzja strategiczna nr 13 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_12"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_14",
+        "name": "ENG Kierunek 14",
+        "description": "Decyzja strategiczna nr 14 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_13"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_15",
+        "name": "ENG Kierunek 15",
+        "description": "Alternatywna \u015bcie\u017cka polityczna nr 15.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_14"
+        ],
+        "effects": {
+          "world_tension": -0.01
+        }
+      },
+      {
+        "id": "ENG_16",
+        "name": "ENG Kierunek 16",
+        "description": "Decyzja strategiczna nr 16 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_15"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_17",
+        "name": "ENG Kierunek 17",
+        "description": "Decyzja strategiczna nr 17 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_16"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_18",
+        "name": "ENG Kierunek 18",
+        "description": "Decyzja strategiczna nr 18 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_17"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "ENG_19",
+        "name": "ENG Kierunek 19",
+        "description": "Decyzja strategiczna nr 19 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_18"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ENG_20",
+        "name": "ENG Kierunek 20",
+        "description": "Decyzja strategiczna nr 20 dla ENG.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ENG_19"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      }
+    ]
+  },
+  "FRA": {
+    "id": "FRA",
+    "name": "Drzewko Francji",
+    "nodes": [
+      {
+        "id": "FRA_01",
+        "name": "FRA Kierunek 1",
+        "description": "Decyzja strategiczna nr 1 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_02",
+        "name": "FRA Kierunek 2",
+        "description": "Decyzja strategiczna nr 2 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_01"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_03",
+        "name": "FRA Kierunek 3",
+        "description": "Decyzja strategiczna nr 3 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_02"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "FRA_04",
+        "name": "FRA Kierunek 4",
+        "description": "Decyzja strategiczna nr 4 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_03"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_05",
+        "name": "FRA Kierunek 5",
+        "description": "Decyzja strategiczna nr 5 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_04"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_06",
+        "name": "FRA Kierunek 6",
+        "description": "Decyzja strategiczna nr 6 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_05"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "FRA_07",
+        "name": "FRA Kierunek 7",
+        "description": "Decyzja strategiczna nr 7 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_06"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_08",
+        "name": "FRA Kierunek 8",
+        "description": "Decyzja strategiczna nr 8 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_07"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_09",
+        "name": "FRA Kierunek 9",
+        "description": "Decyzja strategiczna nr 9 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_08"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "FRA_10",
+        "name": "FRA Kierunek 10",
+        "description": "Decyzja strategiczna nr 10 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_09"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_11",
+        "name": "FRA Kierunek 11",
+        "description": "Decyzja strategiczna nr 11 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_10"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_12",
+        "name": "FRA Kierunek 12",
+        "description": "Decyzja strategiczna nr 12 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_11"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "FRA_13",
+        "name": "FRA Kierunek 13",
+        "description": "Decyzja strategiczna nr 13 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_12"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_14",
+        "name": "FRA Kierunek 14",
+        "description": "Decyzja strategiczna nr 14 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_13"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_15",
+        "name": "FRA Kierunek 15",
+        "description": "Alternatywna \u015bcie\u017cka polityczna nr 15.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_14"
+        ],
+        "effects": {
+          "world_tension": -0.01
+        }
+      },
+      {
+        "id": "FRA_16",
+        "name": "FRA Kierunek 16",
+        "description": "Decyzja strategiczna nr 16 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_15"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_17",
+        "name": "FRA Kierunek 17",
+        "description": "Decyzja strategiczna nr 17 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_16"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "FRA_18",
+        "name": "FRA Kierunek 18",
+        "description": "Decyzja strategiczna nr 18 dla FRA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "FRA_17"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      }
+    ]
+  },
+  "USA": {
+    "id": "USA",
+    "name": "Drzewko USA",
+    "nodes": [
+      {
+        "id": "USA_01",
+        "name": "USA Kierunek 1",
+        "description": "Decyzja strategiczna nr 1 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_02",
+        "name": "USA Kierunek 2",
+        "description": "Decyzja strategiczna nr 2 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_01"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_03",
+        "name": "USA Kierunek 3",
+        "description": "Decyzja strategiczna nr 3 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_02"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "USA_04",
+        "name": "USA Kierunek 4",
+        "description": "Decyzja strategiczna nr 4 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_03"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_05",
+        "name": "USA Kierunek 5",
+        "description": "Decyzja strategiczna nr 5 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_04"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_06",
+        "name": "USA Kierunek 6",
+        "description": "Decyzja strategiczna nr 6 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_05"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "USA_07",
+        "name": "USA Kierunek 7",
+        "description": "Decyzja strategiczna nr 7 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_06"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_08",
+        "name": "USA Kierunek 8",
+        "description": "Decyzja strategiczna nr 8 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_07"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_09",
+        "name": "USA Kierunek 9",
+        "description": "Decyzja strategiczna nr 9 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_08"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "USA_10",
+        "name": "USA Kierunek 10",
+        "description": "Decyzja strategiczna nr 10 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_09"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_11",
+        "name": "USA Kierunek 11",
+        "description": "Decyzja strategiczna nr 11 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_10"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_12",
+        "name": "USA Kierunek 12",
+        "description": "Decyzja strategiczna nr 12 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_11"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "USA_13",
+        "name": "USA Kierunek 13",
+        "description": "Decyzja strategiczna nr 13 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_12"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_14",
+        "name": "USA Kierunek 14",
+        "description": "Decyzja strategiczna nr 14 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_13"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_15",
+        "name": "USA Kierunek 15",
+        "description": "Alternatywna \u015bcie\u017cka polityczna nr 15.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_14"
+        ],
+        "effects": {
+          "world_tension": -0.01
+        }
+      },
+      {
+        "id": "USA_16",
+        "name": "USA Kierunek 16",
+        "description": "Decyzja strategiczna nr 16 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_15"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_17",
+        "name": "USA Kierunek 17",
+        "description": "Decyzja strategiczna nr 17 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_16"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_18",
+        "name": "USA Kierunek 18",
+        "description": "Decyzja strategiczna nr 18 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_17"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "USA_19",
+        "name": "USA Kierunek 19",
+        "description": "Decyzja strategiczna nr 19 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_18"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "USA_20",
+        "name": "USA Kierunek 20",
+        "description": "Decyzja strategiczna nr 20 dla USA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "USA_19"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      }
+    ]
+  },
+  "ITA": {
+    "id": "ITA",
+    "name": "Drzewko W\u0142och",
+    "nodes": [
+      {
+        "id": "ITA_01",
+        "name": "ITA Kierunek 1",
+        "description": "Decyzja strategiczna nr 1 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_02",
+        "name": "ITA Kierunek 2",
+        "description": "Decyzja strategiczna nr 2 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_01"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_03",
+        "name": "ITA Kierunek 3",
+        "description": "Decyzja strategiczna nr 3 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_02"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "ITA_04",
+        "name": "ITA Kierunek 4",
+        "description": "Decyzja strategiczna nr 4 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_03"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_05",
+        "name": "ITA Kierunek 5",
+        "description": "Decyzja strategiczna nr 5 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_04"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_06",
+        "name": "ITA Kierunek 6",
+        "description": "Decyzja strategiczna nr 6 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_05"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "ITA_07",
+        "name": "ITA Kierunek 7",
+        "description": "Decyzja strategiczna nr 7 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_06"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_08",
+        "name": "ITA Kierunek 8",
+        "description": "Decyzja strategiczna nr 8 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_07"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_09",
+        "name": "ITA Kierunek 9",
+        "description": "Decyzja strategiczna nr 9 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_08"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "ITA_10",
+        "name": "ITA Kierunek 10",
+        "description": "Decyzja strategiczna nr 10 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_09"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_11",
+        "name": "ITA Kierunek 11",
+        "description": "Decyzja strategiczna nr 11 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_10"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_12",
+        "name": "ITA Kierunek 12",
+        "description": "Decyzja strategiczna nr 12 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_11"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "ITA_13",
+        "name": "ITA Kierunek 13",
+        "description": "Decyzja strategiczna nr 13 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_12"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_14",
+        "name": "ITA Kierunek 14",
+        "description": "Decyzja strategiczna nr 14 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_13"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_15",
+        "name": "ITA Kierunek 15",
+        "description": "Alternatywna \u015bcie\u017cka polityczna nr 15.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_14"
+        ],
+        "effects": {
+          "world_tension": -0.01
+        }
+      },
+      {
+        "id": "ITA_16",
+        "name": "ITA Kierunek 16",
+        "description": "Decyzja strategiczna nr 16 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_15"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_17",
+        "name": "ITA Kierunek 17",
+        "description": "Decyzja strategiczna nr 17 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_16"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "ITA_18",
+        "name": "ITA Kierunek 18",
+        "description": "Decyzja strategiczna nr 18 dla ITA.",
+        "time_hours": 168,
+        "prerequisites": [
+          "ITA_17"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      }
+    ]
+  },
+  "JPN": {
+    "id": "JPN",
+    "name": "Drzewko Japonii",
+    "nodes": [
+      {
+        "id": "JPN_01",
+        "name": "JPN Kierunek 1",
+        "description": "Decyzja strategiczna nr 1 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_02",
+        "name": "JPN Kierunek 2",
+        "description": "Decyzja strategiczna nr 2 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_01"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_03",
+        "name": "JPN Kierunek 3",
+        "description": "Decyzja strategiczna nr 3 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_02"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "JPN_04",
+        "name": "JPN Kierunek 4",
+        "description": "Decyzja strategiczna nr 4 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_03"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_05",
+        "name": "JPN Kierunek 5",
+        "description": "Decyzja strategiczna nr 5 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_04"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_06",
+        "name": "JPN Kierunek 6",
+        "description": "Decyzja strategiczna nr 6 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_05"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "JPN_07",
+        "name": "JPN Kierunek 7",
+        "description": "Decyzja strategiczna nr 7 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_06"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_08",
+        "name": "JPN Kierunek 8",
+        "description": "Decyzja strategiczna nr 8 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_07"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_09",
+        "name": "JPN Kierunek 9",
+        "description": "Decyzja strategiczna nr 9 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_08"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "JPN_10",
+        "name": "JPN Kierunek 10",
+        "description": "Decyzja strategiczna nr 10 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_09"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_11",
+        "name": "JPN Kierunek 11",
+        "description": "Decyzja strategiczna nr 11 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_10"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_12",
+        "name": "JPN Kierunek 12",
+        "description": "Decyzja strategiczna nr 12 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_11"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "JPN_13",
+        "name": "JPN Kierunek 13",
+        "description": "Decyzja strategiczna nr 13 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_12"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_14",
+        "name": "JPN Kierunek 14",
+        "description": "Decyzja strategiczna nr 14 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_13"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_15",
+        "name": "JPN Kierunek 15",
+        "description": "Alternatywna \u015bcie\u017cka polityczna nr 15.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_14"
+        ],
+        "effects": {
+          "world_tension": -0.01
+        }
+      },
+      {
+        "id": "JPN_16",
+        "name": "JPN Kierunek 16",
+        "description": "Decyzja strategiczna nr 16 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_15"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_17",
+        "name": "JPN Kierunek 17",
+        "description": "Decyzja strategiczna nr 17 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_16"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_18",
+        "name": "JPN Kierunek 18",
+        "description": "Decyzja strategiczna nr 18 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_17"
+        ],
+        "effects": {
+          "political_power": 2
+        }
+      },
+      {
+        "id": "JPN_19",
+        "name": "JPN Kierunek 19",
+        "description": "Decyzja strategiczna nr 19 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_18"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "id": "JPN_20",
+        "name": "JPN Kierunek 20",
+        "description": "Decyzja strategiczna nr 20 dla JPN.",
+        "time_hours": 168,
+        "prerequisites": [
+          "JPN_19"
+        ],
+        "effects": {
+          "factories": 1
+        }
+      }
+    ]
+  }
+}

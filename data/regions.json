@@ -1,0 +1,2882 @@
+{
+  "prov_0_0": {
+    "id": "prov_0_0",
+    "name": "Region 0-0",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      0,
+      0
+    ],
+    "infrastructure": 2,
+    "factories": 0,
+    "resources": {
+      "steel": 2
+    },
+    "population": 50,
+    "resistance": 0.0,
+    "supply": 3,
+    "air_coverage": 0
+  },
+  "prov_0_1": {
+    "id": "prov_0_1",
+    "name": "Region 0-1",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      0,
+      1
+    ],
+    "infrastructure": 3,
+    "factories": 1,
+    "resources": {
+      "oil": 2
+    },
+    "population": 57,
+    "resistance": 0.1,
+    "supply": 4,
+    "air_coverage": 1
+  },
+  "prov_0_2": {
+    "id": "prov_0_2",
+    "name": "Region 0-2",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      0,
+      2
+    ],
+    "infrastructure": 4,
+    "factories": 2,
+    "resources": {
+      "aluminum": 2
+    },
+    "population": 64,
+    "resistance": 0.2,
+    "supply": 5,
+    "air_coverage": 2
+  },
+  "prov_0_3": {
+    "id": "prov_0_3",
+    "name": "Region 0-3",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      0,
+      3
+    ],
+    "infrastructure": 5,
+    "factories": 3,
+    "resources": {
+      "rubber": 2
+    },
+    "population": 71,
+    "resistance": 0.30000000000000004,
+    "supply": 6,
+    "air_coverage": 3
+  },
+  "prov_0_4": {
+    "id": "prov_0_4",
+    "name": "Region 0-4",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      0,
+      4
+    ],
+    "infrastructure": 6,
+    "factories": 0,
+    "resources": {
+      "tungsten": 2
+    },
+    "population": 78,
+    "resistance": 0.4,
+    "supply": 3,
+    "air_coverage": 4
+  },
+  "prov_0_5": {
+    "id": "prov_0_5",
+    "name": "Region 0-5",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      0,
+      5
+    ],
+    "infrastructure": 7,
+    "factories": 1,
+    "resources": {
+      "steel": 2
+    },
+    "population": 85,
+    "resistance": 0.0,
+    "supply": 4,
+    "air_coverage": 0
+  },
+  "prov_0_6": {
+    "id": "prov_0_6",
+    "name": "Region 0-6",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      0,
+      6
+    ],
+    "infrastructure": 2,
+    "factories": 2,
+    "resources": {
+      "oil": 2
+    },
+    "population": 92,
+    "resistance": 0.1,
+    "supply": 5,
+    "air_coverage": 1
+  },
+  "prov_0_7": {
+    "id": "prov_0_7",
+    "name": "Region 0-7",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      0,
+      7
+    ],
+    "infrastructure": 3,
+    "factories": 3,
+    "resources": {
+      "aluminum": 2
+    },
+    "population": 99,
+    "resistance": 0.2,
+    "supply": 6,
+    "air_coverage": 2
+  },
+  "prov_0_8": {
+    "id": "prov_0_8",
+    "name": "Region 0-8",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      0,
+      8
+    ],
+    "infrastructure": 4,
+    "factories": 0,
+    "resources": {
+      "rubber": 2
+    },
+    "population": 106,
+    "resistance": 0.30000000000000004,
+    "supply": 3,
+    "air_coverage": 3
+  },
+  "prov_0_9": {
+    "id": "prov_0_9",
+    "name": "Region 0-9",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      0,
+      9
+    ],
+    "infrastructure": 5,
+    "factories": 1,
+    "resources": {
+      "tungsten": 2
+    },
+    "population": 113,
+    "resistance": 0.4,
+    "supply": 4,
+    "air_coverage": 4
+  },
+  "prov_1_0": {
+    "id": "prov_1_0",
+    "name": "Region 1-0",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      1,
+      0
+    ],
+    "infrastructure": 3,
+    "factories": 1,
+    "resources": {
+      "oil": 2
+    },
+    "population": 61,
+    "resistance": 0.1,
+    "supply": 4,
+    "air_coverage": 1
+  },
+  "prov_1_1": {
+    "id": "prov_1_1",
+    "name": "Region 1-1",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      1,
+      1
+    ],
+    "infrastructure": 4,
+    "factories": 2,
+    "resources": {
+      "aluminum": 3
+    },
+    "population": 68,
+    "resistance": 0.2,
+    "supply": 5,
+    "air_coverage": 2
+  },
+  "prov_1_2": {
+    "id": "prov_1_2",
+    "name": "Region 1-2",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      1,
+      2
+    ],
+    "infrastructure": 5,
+    "factories": 3,
+    "resources": {
+      "rubber": 4
+    },
+    "population": 75,
+    "resistance": 0.30000000000000004,
+    "supply": 6,
+    "air_coverage": 3
+  },
+  "prov_1_3": {
+    "id": "prov_1_3",
+    "name": "Region 1-3",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      1,
+      3
+    ],
+    "infrastructure": 6,
+    "factories": 0,
+    "resources": {
+      "tungsten": 5
+    },
+    "population": 82,
+    "resistance": 0.4,
+    "supply": 3,
+    "air_coverage": 4
+  },
+  "prov_1_4": {
+    "id": "prov_1_4",
+    "name": "Region 1-4",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      1,
+      4
+    ],
+    "infrastructure": 7,
+    "factories": 1,
+    "resources": {
+      "steel": 6
+    },
+    "population": 89,
+    "resistance": 0.0,
+    "supply": 4,
+    "air_coverage": 0
+  },
+  "prov_1_5": {
+    "id": "prov_1_5",
+    "name": "Region 1-5",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      1,
+      5
+    ],
+    "infrastructure": 2,
+    "factories": 2,
+    "resources": {
+      "oil": 2
+    },
+    "population": 96,
+    "resistance": 0.1,
+    "supply": 5,
+    "air_coverage": 1
+  },
+  "prov_1_6": {
+    "id": "prov_1_6",
+    "name": "Region 1-6",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      1,
+      6
+    ],
+    "infrastructure": 3,
+    "factories": 3,
+    "resources": {
+      "aluminum": 3
+    },
+    "population": 103,
+    "resistance": 0.2,
+    "supply": 6,
+    "air_coverage": 2
+  },
+  "prov_1_7": {
+    "id": "prov_1_7",
+    "name": "Region 1-7",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      1,
+      7
+    ],
+    "infrastructure": 4,
+    "factories": 0,
+    "resources": {
+      "rubber": 4
+    },
+    "population": 110,
+    "resistance": 0.30000000000000004,
+    "supply": 3,
+    "air_coverage": 3
+  },
+  "prov_1_8": {
+    "id": "prov_1_8",
+    "name": "Region 1-8",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      1,
+      8
+    ],
+    "infrastructure": 5,
+    "factories": 1,
+    "resources": {
+      "tungsten": 5
+    },
+    "population": 117,
+    "resistance": 0.4,
+    "supply": 4,
+    "air_coverage": 4
+  },
+  "prov_1_9": {
+    "id": "prov_1_9",
+    "name": "Region 1-9",
+    "owner": "USA",
+    "controller": "USA",
+    "owner_color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "grid": [
+      1,
+      9
+    ],
+    "infrastructure": 6,
+    "factories": 2,
+    "resources": {
+      "steel": 6
+    },
+    "population": 124,
+    "resistance": 0.0,
+    "supply": 5,
+    "air_coverage": 0
+  },
+  "prov_2_0": {
+    "id": "prov_2_0",
+    "name": "Region 2-0",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      2,
+      0
+    ],
+    "infrastructure": 4,
+    "factories": 2,
+    "resources": {
+      "aluminum": 2
+    },
+    "population": 72,
+    "resistance": 0.2,
+    "supply": 5,
+    "air_coverage": 2
+  },
+  "prov_2_1": {
+    "id": "prov_2_1",
+    "name": "Region 2-1",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      2,
+      1
+    ],
+    "infrastructure": 5,
+    "factories": 3,
+    "resources": {
+      "rubber": 4
+    },
+    "population": 79,
+    "resistance": 0.30000000000000004,
+    "supply": 6,
+    "air_coverage": 3
+  },
+  "prov_2_2": {
+    "id": "prov_2_2",
+    "name": "Region 2-2",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      2,
+      2
+    ],
+    "infrastructure": 6,
+    "factories": 0,
+    "resources": {
+      "tungsten": 6
+    },
+    "population": 86,
+    "resistance": 0.4,
+    "supply": 3,
+    "air_coverage": 4
+  },
+  "prov_2_3": {
+    "id": "prov_2_3",
+    "name": "Region 2-3",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      2,
+      3
+    ],
+    "infrastructure": 7,
+    "factories": 1,
+    "resources": {
+      "steel": 3
+    },
+    "population": 93,
+    "resistance": 0.0,
+    "supply": 4,
+    "air_coverage": 0
+  },
+  "prov_2_4": {
+    "id": "prov_2_4",
+    "name": "Region 2-4",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      2,
+      4
+    ],
+    "infrastructure": 2,
+    "factories": 2,
+    "resources": {
+      "oil": 5
+    },
+    "population": 100,
+    "resistance": 0.1,
+    "supply": 5,
+    "air_coverage": 1
+  },
+  "prov_2_5": {
+    "id": "prov_2_5",
+    "name": "Region 2-5",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      2,
+      5
+    ],
+    "infrastructure": 3,
+    "factories": 3,
+    "resources": {
+      "aluminum": 2
+    },
+    "population": 107,
+    "resistance": 0.2,
+    "supply": 6,
+    "air_coverage": 2
+  },
+  "prov_2_6": {
+    "id": "prov_2_6",
+    "name": "Region 2-6",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      2,
+      6
+    ],
+    "infrastructure": 4,
+    "factories": 0,
+    "resources": {
+      "rubber": 4
+    },
+    "population": 114,
+    "resistance": 0.30000000000000004,
+    "supply": 3,
+    "air_coverage": 3
+  },
+  "prov_2_7": {
+    "id": "prov_2_7",
+    "name": "Region 2-7",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      2,
+      7
+    ],
+    "infrastructure": 5,
+    "factories": 1,
+    "resources": {
+      "tungsten": 6
+    },
+    "population": 121,
+    "resistance": 0.4,
+    "supply": 4,
+    "air_coverage": 4
+  },
+  "prov_2_8": {
+    "id": "prov_2_8",
+    "name": "Region 2-8",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      2,
+      8
+    ],
+    "infrastructure": 6,
+    "factories": 2,
+    "resources": {
+      "steel": 3
+    },
+    "population": 128,
+    "resistance": 0.0,
+    "supply": 5,
+    "air_coverage": 0
+  },
+  "prov_2_9": {
+    "id": "prov_2_9",
+    "name": "Region 2-9",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      2,
+      9
+    ],
+    "infrastructure": 7,
+    "factories": 3,
+    "resources": {
+      "oil": 5
+    },
+    "population": 135,
+    "resistance": 0.1,
+    "supply": 6,
+    "air_coverage": 1
+  },
+  "prov_3_0": {
+    "id": "prov_3_0",
+    "name": "Region 3-0",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      3,
+      0
+    ],
+    "infrastructure": 5,
+    "factories": 3,
+    "resources": {
+      "rubber": 2
+    },
+    "population": 83,
+    "resistance": 0.30000000000000004,
+    "supply": 6,
+    "air_coverage": 3
+  },
+  "prov_3_1": {
+    "id": "prov_3_1",
+    "name": "Region 3-1",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      3,
+      1
+    ],
+    "infrastructure": 6,
+    "factories": 0,
+    "resources": {
+      "tungsten": 5
+    },
+    "population": 90,
+    "resistance": 0.4,
+    "supply": 3,
+    "air_coverage": 4
+  },
+  "prov_3_2": {
+    "id": "prov_3_2",
+    "name": "Region 3-2",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      3,
+      2
+    ],
+    "infrastructure": 7,
+    "factories": 1,
+    "resources": {
+      "steel": 3
+    },
+    "population": 97,
+    "resistance": 0.0,
+    "supply": 4,
+    "air_coverage": 0
+  },
+  "prov_3_3": {
+    "id": "prov_3_3",
+    "name": "Region 3-3",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      3,
+      3
+    ],
+    "infrastructure": 2,
+    "factories": 2,
+    "resources": {
+      "oil": 6
+    },
+    "population": 104,
+    "resistance": 0.1,
+    "supply": 5,
+    "air_coverage": 1
+  },
+  "prov_3_4": {
+    "id": "prov_3_4",
+    "name": "Region 3-4",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      3,
+      4
+    ],
+    "infrastructure": 3,
+    "factories": 3,
+    "resources": {
+      "aluminum": 4
+    },
+    "population": 111,
+    "resistance": 0.2,
+    "supply": 6,
+    "air_coverage": 2
+  },
+  "prov_3_5": {
+    "id": "prov_3_5",
+    "name": "Region 3-5",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      3,
+      5
+    ],
+    "infrastructure": 4,
+    "factories": 0,
+    "resources": {
+      "rubber": 2
+    },
+    "population": 118,
+    "resistance": 0.30000000000000004,
+    "supply": 3,
+    "air_coverage": 3
+  },
+  "prov_3_6": {
+    "id": "prov_3_6",
+    "name": "Region 3-6",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      3,
+      6
+    ],
+    "infrastructure": 5,
+    "factories": 1,
+    "resources": {
+      "tungsten": 5
+    },
+    "population": 125,
+    "resistance": 0.4,
+    "supply": 4,
+    "air_coverage": 4
+  },
+  "prov_3_7": {
+    "id": "prov_3_7",
+    "name": "Region 3-7",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      3,
+      7
+    ],
+    "infrastructure": 6,
+    "factories": 2,
+    "resources": {
+      "steel": 3
+    },
+    "population": 132,
+    "resistance": 0.0,
+    "supply": 5,
+    "air_coverage": 0
+  },
+  "prov_3_8": {
+    "id": "prov_3_8",
+    "name": "Region 3-8",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      3,
+      8
+    ],
+    "infrastructure": 7,
+    "factories": 3,
+    "resources": {
+      "oil": 6
+    },
+    "population": 139,
+    "resistance": 0.1,
+    "supply": 6,
+    "air_coverage": 1
+  },
+  "prov_3_9": {
+    "id": "prov_3_9",
+    "name": "Region 3-9",
+    "owner": "ENG",
+    "controller": "ENG",
+    "owner_color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "grid": [
+      3,
+      9
+    ],
+    "infrastructure": 2,
+    "factories": 0,
+    "resources": {
+      "aluminum": 4
+    },
+    "population": 146,
+    "resistance": 0.2,
+    "supply": 3,
+    "air_coverage": 2
+  },
+  "prov_4_0": {
+    "id": "prov_4_0",
+    "name": "Region 4-0",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      4,
+      0
+    ],
+    "infrastructure": 6,
+    "factories": 0,
+    "resources": {
+      "tungsten": 2
+    },
+    "population": 94,
+    "resistance": 0.4,
+    "supply": 3,
+    "air_coverage": 4
+  },
+  "prov_4_1": {
+    "id": "prov_4_1",
+    "name": "Region 4-1",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      4,
+      1
+    ],
+    "infrastructure": 7,
+    "factories": 1,
+    "resources": {
+      "steel": 6
+    },
+    "population": 101,
+    "resistance": 0.0,
+    "supply": 4,
+    "air_coverage": 0
+  },
+  "prov_4_2": {
+    "id": "prov_4_2",
+    "name": "Region 4-2",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      4,
+      2
+    ],
+    "infrastructure": 2,
+    "factories": 2,
+    "resources": {
+      "oil": 5
+    },
+    "population": 108,
+    "resistance": 0.1,
+    "supply": 5,
+    "air_coverage": 1
+  },
+  "prov_4_3": {
+    "id": "prov_4_3",
+    "name": "Region 4-3",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      4,
+      3
+    ],
+    "infrastructure": 3,
+    "factories": 3,
+    "resources": {
+      "aluminum": 4
+    },
+    "population": 115,
+    "resistance": 0.2,
+    "supply": 6,
+    "air_coverage": 2
+  },
+  "prov_4_4": {
+    "id": "prov_4_4",
+    "name": "Region 4-4",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      4,
+      4
+    ],
+    "infrastructure": 4,
+    "factories": 0,
+    "resources": {
+      "rubber": 3
+    },
+    "population": 122,
+    "resistance": 0.30000000000000004,
+    "supply": 3,
+    "air_coverage": 3
+  },
+  "prov_4_5": {
+    "id": "prov_4_5",
+    "name": "Region 4-5",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      4,
+      5
+    ],
+    "infrastructure": 5,
+    "factories": 1,
+    "resources": {
+      "tungsten": 2
+    },
+    "population": 129,
+    "resistance": 0.4,
+    "supply": 4,
+    "air_coverage": 4
+  },
+  "prov_4_6": {
+    "id": "prov_4_6",
+    "name": "Region 4-6",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      4,
+      6
+    ],
+    "infrastructure": 6,
+    "factories": 2,
+    "resources": {
+      "steel": 6
+    },
+    "population": 136,
+    "resistance": 0.0,
+    "supply": 5,
+    "air_coverage": 0
+  },
+  "prov_4_7": {
+    "id": "prov_4_7",
+    "name": "Region 4-7",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      4,
+      7
+    ],
+    "infrastructure": 7,
+    "factories": 3,
+    "resources": {
+      "oil": 5
+    },
+    "population": 143,
+    "resistance": 0.1,
+    "supply": 6,
+    "air_coverage": 1
+  },
+  "prov_4_8": {
+    "id": "prov_4_8",
+    "name": "Region 4-8",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      4,
+      8
+    ],
+    "infrastructure": 2,
+    "factories": 0,
+    "resources": {
+      "aluminum": 4
+    },
+    "population": 150,
+    "resistance": 0.2,
+    "supply": 3,
+    "air_coverage": 2
+  },
+  "prov_4_9": {
+    "id": "prov_4_9",
+    "name": "Region 4-9",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      4,
+      9
+    ],
+    "infrastructure": 3,
+    "factories": 1,
+    "resources": {
+      "rubber": 3
+    },
+    "population": 157,
+    "resistance": 0.30000000000000004,
+    "supply": 4,
+    "air_coverage": 3
+  },
+  "prov_5_0": {
+    "id": "prov_5_0",
+    "name": "Region 5-0",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      5,
+      0
+    ],
+    "infrastructure": 7,
+    "factories": 1,
+    "resources": {
+      "steel": 2
+    },
+    "population": 105,
+    "resistance": 0.0,
+    "supply": 4,
+    "air_coverage": 0
+  },
+  "prov_5_1": {
+    "id": "prov_5_1",
+    "name": "Region 5-1",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      5,
+      1
+    ],
+    "infrastructure": 2,
+    "factories": 2,
+    "resources": {
+      "oil": 2
+    },
+    "population": 112,
+    "resistance": 0.1,
+    "supply": 5,
+    "air_coverage": 1
+  },
+  "prov_5_2": {
+    "id": "prov_5_2",
+    "name": "Region 5-2",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      5,
+      2
+    ],
+    "infrastructure": 3,
+    "factories": 3,
+    "resources": {
+      "aluminum": 2
+    },
+    "population": 119,
+    "resistance": 0.2,
+    "supply": 6,
+    "air_coverage": 2
+  },
+  "prov_5_3": {
+    "id": "prov_5_3",
+    "name": "Region 5-3",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      5,
+      3
+    ],
+    "infrastructure": 4,
+    "factories": 0,
+    "resources": {
+      "rubber": 2
+    },
+    "population": 126,
+    "resistance": 0.30000000000000004,
+    "supply": 3,
+    "air_coverage": 3
+  },
+  "prov_5_4": {
+    "id": "prov_5_4",
+    "name": "Region 5-4",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      5,
+      4
+    ],
+    "infrastructure": 5,
+    "factories": 1,
+    "resources": {
+      "tungsten": 2
+    },
+    "population": 133,
+    "resistance": 0.4,
+    "supply": 4,
+    "air_coverage": 4
+  },
+  "prov_5_5": {
+    "id": "prov_5_5",
+    "name": "Region 5-5",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      5,
+      5
+    ],
+    "infrastructure": 6,
+    "factories": 2,
+    "resources": {
+      "steel": 2
+    },
+    "population": 140,
+    "resistance": 0.0,
+    "supply": 5,
+    "air_coverage": 0
+  },
+  "prov_5_6": {
+    "id": "prov_5_6",
+    "name": "Region 5-6",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      5,
+      6
+    ],
+    "infrastructure": 7,
+    "factories": 3,
+    "resources": {
+      "oil": 2
+    },
+    "population": 147,
+    "resistance": 0.1,
+    "supply": 6,
+    "air_coverage": 1
+  },
+  "prov_5_7": {
+    "id": "prov_5_7",
+    "name": "Region 5-7",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      5,
+      7
+    ],
+    "infrastructure": 2,
+    "factories": 0,
+    "resources": {
+      "aluminum": 2
+    },
+    "population": 154,
+    "resistance": 0.2,
+    "supply": 3,
+    "air_coverage": 2
+  },
+  "prov_5_8": {
+    "id": "prov_5_8",
+    "name": "Region 5-8",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      5,
+      8
+    ],
+    "infrastructure": 3,
+    "factories": 1,
+    "resources": {
+      "rubber": 2
+    },
+    "population": 161,
+    "resistance": 0.30000000000000004,
+    "supply": 4,
+    "air_coverage": 3
+  },
+  "prov_5_9": {
+    "id": "prov_5_9",
+    "name": "Region 5-9",
+    "owner": "FRA",
+    "controller": "FRA",
+    "owner_color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "grid": [
+      5,
+      9
+    ],
+    "infrastructure": 4,
+    "factories": 2,
+    "resources": {
+      "tungsten": 2
+    },
+    "population": 168,
+    "resistance": 0.4,
+    "supply": 5,
+    "air_coverage": 4
+  },
+  "prov_6_0": {
+    "id": "prov_6_0",
+    "name": "Region 6-0",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      6,
+      0
+    ],
+    "infrastructure": 2,
+    "factories": 2,
+    "resources": {
+      "oil": 2
+    },
+    "population": 116,
+    "resistance": 0.1,
+    "supply": 5,
+    "air_coverage": 1
+  },
+  "prov_6_1": {
+    "id": "prov_6_1",
+    "name": "Region 6-1",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      6,
+      1
+    ],
+    "infrastructure": 3,
+    "factories": 3,
+    "resources": {
+      "aluminum": 3
+    },
+    "population": 123,
+    "resistance": 0.2,
+    "supply": 6,
+    "air_coverage": 2
+  },
+  "prov_6_2": {
+    "id": "prov_6_2",
+    "name": "Region 6-2",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      6,
+      2
+    ],
+    "infrastructure": 4,
+    "factories": 0,
+    "resources": {
+      "rubber": 4
+    },
+    "population": 130,
+    "resistance": 0.30000000000000004,
+    "supply": 3,
+    "air_coverage": 3
+  },
+  "prov_6_3": {
+    "id": "prov_6_3",
+    "name": "Region 6-3",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      6,
+      3
+    ],
+    "infrastructure": 5,
+    "factories": 1,
+    "resources": {
+      "tungsten": 5
+    },
+    "population": 137,
+    "resistance": 0.4,
+    "supply": 4,
+    "air_coverage": 4
+  },
+  "prov_6_4": {
+    "id": "prov_6_4",
+    "name": "Region 6-4",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      6,
+      4
+    ],
+    "infrastructure": 6,
+    "factories": 2,
+    "resources": {
+      "steel": 6
+    },
+    "population": 144,
+    "resistance": 0.0,
+    "supply": 5,
+    "air_coverage": 0
+  },
+  "prov_6_5": {
+    "id": "prov_6_5",
+    "name": "Region 6-5",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      6,
+      5
+    ],
+    "infrastructure": 7,
+    "factories": 3,
+    "resources": {
+      "oil": 2
+    },
+    "population": 151,
+    "resistance": 0.1,
+    "supply": 6,
+    "air_coverage": 1
+  },
+  "prov_6_6": {
+    "id": "prov_6_6",
+    "name": "Region 6-6",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      6,
+      6
+    ],
+    "infrastructure": 2,
+    "factories": 0,
+    "resources": {
+      "aluminum": 3
+    },
+    "population": 158,
+    "resistance": 0.2,
+    "supply": 3,
+    "air_coverage": 2
+  },
+  "prov_6_7": {
+    "id": "prov_6_7",
+    "name": "Region 6-7",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      6,
+      7
+    ],
+    "infrastructure": 3,
+    "factories": 1,
+    "resources": {
+      "rubber": 4
+    },
+    "population": 165,
+    "resistance": 0.30000000000000004,
+    "supply": 4,
+    "air_coverage": 3
+  },
+  "prov_6_8": {
+    "id": "prov_6_8",
+    "name": "Region 6-8",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      6,
+      8
+    ],
+    "infrastructure": 4,
+    "factories": 2,
+    "resources": {
+      "tungsten": 5
+    },
+    "population": 172,
+    "resistance": 0.4,
+    "supply": 5,
+    "air_coverage": 4
+  },
+  "prov_6_9": {
+    "id": "prov_6_9",
+    "name": "Region 6-9",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      6,
+      9
+    ],
+    "infrastructure": 5,
+    "factories": 3,
+    "resources": {
+      "steel": 6
+    },
+    "population": 179,
+    "resistance": 0.0,
+    "supply": 6,
+    "air_coverage": 0
+  },
+  "prov_7_0": {
+    "id": "prov_7_0",
+    "name": "Region 7-0",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      7,
+      0
+    ],
+    "infrastructure": 3,
+    "factories": 3,
+    "resources": {
+      "aluminum": 2
+    },
+    "population": 127,
+    "resistance": 0.2,
+    "supply": 6,
+    "air_coverage": 2
+  },
+  "prov_7_1": {
+    "id": "prov_7_1",
+    "name": "Region 7-1",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      7,
+      1
+    ],
+    "infrastructure": 4,
+    "factories": 0,
+    "resources": {
+      "rubber": 4
+    },
+    "population": 134,
+    "resistance": 0.30000000000000004,
+    "supply": 3,
+    "air_coverage": 3
+  },
+  "prov_7_2": {
+    "id": "prov_7_2",
+    "name": "Region 7-2",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      7,
+      2
+    ],
+    "infrastructure": 5,
+    "factories": 1,
+    "resources": {
+      "tungsten": 6
+    },
+    "population": 141,
+    "resistance": 0.4,
+    "supply": 4,
+    "air_coverage": 4
+  },
+  "prov_7_3": {
+    "id": "prov_7_3",
+    "name": "Region 7-3",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      7,
+      3
+    ],
+    "infrastructure": 6,
+    "factories": 2,
+    "resources": {
+      "steel": 3
+    },
+    "population": 148,
+    "resistance": 0.0,
+    "supply": 5,
+    "air_coverage": 0
+  },
+  "prov_7_4": {
+    "id": "prov_7_4",
+    "name": "Region 7-4",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      7,
+      4
+    ],
+    "infrastructure": 7,
+    "factories": 3,
+    "resources": {
+      "oil": 5
+    },
+    "population": 155,
+    "resistance": 0.1,
+    "supply": 6,
+    "air_coverage": 1
+  },
+  "prov_7_5": {
+    "id": "prov_7_5",
+    "name": "Region 7-5",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      7,
+      5
+    ],
+    "infrastructure": 2,
+    "factories": 0,
+    "resources": {
+      "aluminum": 2
+    },
+    "population": 162,
+    "resistance": 0.2,
+    "supply": 3,
+    "air_coverage": 2
+  },
+  "prov_7_6": {
+    "id": "prov_7_6",
+    "name": "Region 7-6",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      7,
+      6
+    ],
+    "infrastructure": 3,
+    "factories": 1,
+    "resources": {
+      "rubber": 4
+    },
+    "population": 169,
+    "resistance": 0.30000000000000004,
+    "supply": 4,
+    "air_coverage": 3
+  },
+  "prov_7_7": {
+    "id": "prov_7_7",
+    "name": "Region 7-7",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      7,
+      7
+    ],
+    "infrastructure": 4,
+    "factories": 2,
+    "resources": {
+      "tungsten": 6
+    },
+    "population": 176,
+    "resistance": 0.4,
+    "supply": 5,
+    "air_coverage": 4
+  },
+  "prov_7_8": {
+    "id": "prov_7_8",
+    "name": "Region 7-8",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      7,
+      8
+    ],
+    "infrastructure": 5,
+    "factories": 3,
+    "resources": {
+      "steel": 3
+    },
+    "population": 183,
+    "resistance": 0.0,
+    "supply": 6,
+    "air_coverage": 0
+  },
+  "prov_7_9": {
+    "id": "prov_7_9",
+    "name": "Region 7-9",
+    "owner": "GER",
+    "controller": "GER",
+    "owner_color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "grid": [
+      7,
+      9
+    ],
+    "infrastructure": 6,
+    "factories": 0,
+    "resources": {
+      "oil": 5
+    },
+    "population": 190,
+    "resistance": 0.1,
+    "supply": 3,
+    "air_coverage": 1
+  },
+  "prov_8_0": {
+    "id": "prov_8_0",
+    "name": "Region 8-0",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      8,
+      0
+    ],
+    "infrastructure": 4,
+    "factories": 0,
+    "resources": {
+      "rubber": 2
+    },
+    "population": 138,
+    "resistance": 0.30000000000000004,
+    "supply": 3,
+    "air_coverage": 3
+  },
+  "prov_8_1": {
+    "id": "prov_8_1",
+    "name": "Region 8-1",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      8,
+      1
+    ],
+    "infrastructure": 5,
+    "factories": 1,
+    "resources": {
+      "tungsten": 5
+    },
+    "population": 145,
+    "resistance": 0.4,
+    "supply": 4,
+    "air_coverage": 4
+  },
+  "prov_8_2": {
+    "id": "prov_8_2",
+    "name": "Region 8-2",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      8,
+      2
+    ],
+    "infrastructure": 6,
+    "factories": 2,
+    "resources": {
+      "steel": 3
+    },
+    "population": 152,
+    "resistance": 0.0,
+    "supply": 5,
+    "air_coverage": 0
+  },
+  "prov_8_3": {
+    "id": "prov_8_3",
+    "name": "Region 8-3",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      8,
+      3
+    ],
+    "infrastructure": 7,
+    "factories": 3,
+    "resources": {
+      "oil": 6
+    },
+    "population": 159,
+    "resistance": 0.1,
+    "supply": 6,
+    "air_coverage": 1
+  },
+  "prov_8_4": {
+    "id": "prov_8_4",
+    "name": "Region 8-4",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      8,
+      4
+    ],
+    "infrastructure": 2,
+    "factories": 0,
+    "resources": {
+      "aluminum": 4
+    },
+    "population": 166,
+    "resistance": 0.2,
+    "supply": 3,
+    "air_coverage": 2
+  },
+  "prov_8_5": {
+    "id": "prov_8_5",
+    "name": "Region 8-5",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      8,
+      5
+    ],
+    "infrastructure": 3,
+    "factories": 1,
+    "resources": {
+      "rubber": 2
+    },
+    "population": 173,
+    "resistance": 0.30000000000000004,
+    "supply": 4,
+    "air_coverage": 3
+  },
+  "prov_8_6": {
+    "id": "prov_8_6",
+    "name": "Region 8-6",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      8,
+      6
+    ],
+    "infrastructure": 4,
+    "factories": 2,
+    "resources": {
+      "tungsten": 5
+    },
+    "population": 180,
+    "resistance": 0.4,
+    "supply": 5,
+    "air_coverage": 4
+  },
+  "prov_8_7": {
+    "id": "prov_8_7",
+    "name": "Region 8-7",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      8,
+      7
+    ],
+    "infrastructure": 5,
+    "factories": 3,
+    "resources": {
+      "steel": 3
+    },
+    "population": 187,
+    "resistance": 0.0,
+    "supply": 6,
+    "air_coverage": 0
+  },
+  "prov_8_8": {
+    "id": "prov_8_8",
+    "name": "Region 8-8",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      8,
+      8
+    ],
+    "infrastructure": 6,
+    "factories": 0,
+    "resources": {
+      "oil": 6
+    },
+    "population": 194,
+    "resistance": 0.1,
+    "supply": 3,
+    "air_coverage": 1
+  },
+  "prov_8_9": {
+    "id": "prov_8_9",
+    "name": "Region 8-9",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      8,
+      9
+    ],
+    "infrastructure": 7,
+    "factories": 1,
+    "resources": {
+      "aluminum": 4
+    },
+    "population": 201,
+    "resistance": 0.2,
+    "supply": 4,
+    "air_coverage": 2
+  },
+  "prov_9_0": {
+    "id": "prov_9_0",
+    "name": "Region 9-0",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      9,
+      0
+    ],
+    "infrastructure": 5,
+    "factories": 1,
+    "resources": {
+      "tungsten": 2
+    },
+    "population": 149,
+    "resistance": 0.4,
+    "supply": 4,
+    "air_coverage": 4
+  },
+  "prov_9_1": {
+    "id": "prov_9_1",
+    "name": "Region 9-1",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      9,
+      1
+    ],
+    "infrastructure": 6,
+    "factories": 2,
+    "resources": {
+      "steel": 6
+    },
+    "population": 156,
+    "resistance": 0.0,
+    "supply": 5,
+    "air_coverage": 0
+  },
+  "prov_9_2": {
+    "id": "prov_9_2",
+    "name": "Region 9-2",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      9,
+      2
+    ],
+    "infrastructure": 7,
+    "factories": 3,
+    "resources": {
+      "oil": 5
+    },
+    "population": 163,
+    "resistance": 0.1,
+    "supply": 6,
+    "air_coverage": 1
+  },
+  "prov_9_3": {
+    "id": "prov_9_3",
+    "name": "Region 9-3",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      9,
+      3
+    ],
+    "infrastructure": 2,
+    "factories": 0,
+    "resources": {
+      "aluminum": 4
+    },
+    "population": 170,
+    "resistance": 0.2,
+    "supply": 3,
+    "air_coverage": 2
+  },
+  "prov_9_4": {
+    "id": "prov_9_4",
+    "name": "Region 9-4",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      9,
+      4
+    ],
+    "infrastructure": 3,
+    "factories": 1,
+    "resources": {
+      "rubber": 3
+    },
+    "population": 177,
+    "resistance": 0.30000000000000004,
+    "supply": 4,
+    "air_coverage": 3
+  },
+  "prov_9_5": {
+    "id": "prov_9_5",
+    "name": "Region 9-5",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      9,
+      5
+    ],
+    "infrastructure": 4,
+    "factories": 2,
+    "resources": {
+      "tungsten": 2
+    },
+    "population": 184,
+    "resistance": 0.4,
+    "supply": 5,
+    "air_coverage": 4
+  },
+  "prov_9_6": {
+    "id": "prov_9_6",
+    "name": "Region 9-6",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      9,
+      6
+    ],
+    "infrastructure": 5,
+    "factories": 3,
+    "resources": {
+      "steel": 6
+    },
+    "population": 191,
+    "resistance": 0.0,
+    "supply": 6,
+    "air_coverage": 0
+  },
+  "prov_9_7": {
+    "id": "prov_9_7",
+    "name": "Region 9-7",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      9,
+      7
+    ],
+    "infrastructure": 6,
+    "factories": 0,
+    "resources": {
+      "oil": 5
+    },
+    "population": 198,
+    "resistance": 0.1,
+    "supply": 3,
+    "air_coverage": 1
+  },
+  "prov_9_8": {
+    "id": "prov_9_8",
+    "name": "Region 9-8",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      9,
+      8
+    ],
+    "infrastructure": 7,
+    "factories": 1,
+    "resources": {
+      "aluminum": 4
+    },
+    "population": 205,
+    "resistance": 0.2,
+    "supply": 4,
+    "air_coverage": 2
+  },
+  "prov_9_9": {
+    "id": "prov_9_9",
+    "name": "Region 9-9",
+    "owner": "POL",
+    "controller": "POL",
+    "owner_color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "grid": [
+      9,
+      9
+    ],
+    "infrastructure": 2,
+    "factories": 2,
+    "resources": {
+      "rubber": 3
+    },
+    "population": 212,
+    "resistance": 0.30000000000000004,
+    "supply": 5,
+    "air_coverage": 3
+  },
+  "prov_10_0": {
+    "id": "prov_10_0",
+    "name": "Region 10-0",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      10,
+      0
+    ],
+    "infrastructure": 6,
+    "factories": 2,
+    "resources": {
+      "steel": 2
+    },
+    "population": 160,
+    "resistance": 0.0,
+    "supply": 5,
+    "air_coverage": 0
+  },
+  "prov_10_1": {
+    "id": "prov_10_1",
+    "name": "Region 10-1",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      10,
+      1
+    ],
+    "infrastructure": 7,
+    "factories": 3,
+    "resources": {
+      "oil": 2
+    },
+    "population": 167,
+    "resistance": 0.1,
+    "supply": 6,
+    "air_coverage": 1
+  },
+  "prov_10_2": {
+    "id": "prov_10_2",
+    "name": "Region 10-2",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      10,
+      2
+    ],
+    "infrastructure": 2,
+    "factories": 0,
+    "resources": {
+      "aluminum": 2
+    },
+    "population": 174,
+    "resistance": 0.2,
+    "supply": 3,
+    "air_coverage": 2
+  },
+  "prov_10_3": {
+    "id": "prov_10_3",
+    "name": "Region 10-3",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      10,
+      3
+    ],
+    "infrastructure": 3,
+    "factories": 1,
+    "resources": {
+      "rubber": 2
+    },
+    "population": 181,
+    "resistance": 0.30000000000000004,
+    "supply": 4,
+    "air_coverage": 3
+  },
+  "prov_10_4": {
+    "id": "prov_10_4",
+    "name": "Region 10-4",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      10,
+      4
+    ],
+    "infrastructure": 4,
+    "factories": 2,
+    "resources": {
+      "tungsten": 2
+    },
+    "population": 188,
+    "resistance": 0.4,
+    "supply": 5,
+    "air_coverage": 4
+  },
+  "prov_10_5": {
+    "id": "prov_10_5",
+    "name": "Region 10-5",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      10,
+      5
+    ],
+    "infrastructure": 5,
+    "factories": 3,
+    "resources": {
+      "steel": 2
+    },
+    "population": 195,
+    "resistance": 0.0,
+    "supply": 6,
+    "air_coverage": 0
+  },
+  "prov_10_6": {
+    "id": "prov_10_6",
+    "name": "Region 10-6",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      10,
+      6
+    ],
+    "infrastructure": 6,
+    "factories": 0,
+    "resources": {
+      "oil": 2
+    },
+    "population": 202,
+    "resistance": 0.1,
+    "supply": 3,
+    "air_coverage": 1
+  },
+  "prov_10_7": {
+    "id": "prov_10_7",
+    "name": "Region 10-7",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      10,
+      7
+    ],
+    "infrastructure": 7,
+    "factories": 1,
+    "resources": {
+      "aluminum": 2
+    },
+    "population": 209,
+    "resistance": 0.2,
+    "supply": 4,
+    "air_coverage": 2
+  },
+  "prov_10_8": {
+    "id": "prov_10_8",
+    "name": "Region 10-8",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      10,
+      8
+    ],
+    "infrastructure": 2,
+    "factories": 2,
+    "resources": {
+      "rubber": 2
+    },
+    "population": 216,
+    "resistance": 0.30000000000000004,
+    "supply": 5,
+    "air_coverage": 3
+  },
+  "prov_10_9": {
+    "id": "prov_10_9",
+    "name": "Region 10-9",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      10,
+      9
+    ],
+    "infrastructure": 3,
+    "factories": 3,
+    "resources": {
+      "tungsten": 2
+    },
+    "population": 223,
+    "resistance": 0.4,
+    "supply": 6,
+    "air_coverage": 4
+  },
+  "prov_11_0": {
+    "id": "prov_11_0",
+    "name": "Region 11-0",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      11,
+      0
+    ],
+    "infrastructure": 7,
+    "factories": 3,
+    "resources": {
+      "oil": 2
+    },
+    "population": 171,
+    "resistance": 0.1,
+    "supply": 6,
+    "air_coverage": 1
+  },
+  "prov_11_1": {
+    "id": "prov_11_1",
+    "name": "Region 11-1",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      11,
+      1
+    ],
+    "infrastructure": 2,
+    "factories": 0,
+    "resources": {
+      "aluminum": 3
+    },
+    "population": 178,
+    "resistance": 0.2,
+    "supply": 3,
+    "air_coverage": 2
+  },
+  "prov_11_2": {
+    "id": "prov_11_2",
+    "name": "Region 11-2",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      11,
+      2
+    ],
+    "infrastructure": 3,
+    "factories": 1,
+    "resources": {
+      "rubber": 4
+    },
+    "population": 185,
+    "resistance": 0.30000000000000004,
+    "supply": 4,
+    "air_coverage": 3
+  },
+  "prov_11_3": {
+    "id": "prov_11_3",
+    "name": "Region 11-3",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      11,
+      3
+    ],
+    "infrastructure": 4,
+    "factories": 2,
+    "resources": {
+      "tungsten": 5
+    },
+    "population": 192,
+    "resistance": 0.4,
+    "supply": 5,
+    "air_coverage": 4
+  },
+  "prov_11_4": {
+    "id": "prov_11_4",
+    "name": "Region 11-4",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      11,
+      4
+    ],
+    "infrastructure": 5,
+    "factories": 3,
+    "resources": {
+      "steel": 6
+    },
+    "population": 199,
+    "resistance": 0.0,
+    "supply": 6,
+    "air_coverage": 0
+  },
+  "prov_11_5": {
+    "id": "prov_11_5",
+    "name": "Region 11-5",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      11,
+      5
+    ],
+    "infrastructure": 6,
+    "factories": 0,
+    "resources": {
+      "oil": 2
+    },
+    "population": 206,
+    "resistance": 0.1,
+    "supply": 3,
+    "air_coverage": 1
+  },
+  "prov_11_6": {
+    "id": "prov_11_6",
+    "name": "Region 11-6",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      11,
+      6
+    ],
+    "infrastructure": 7,
+    "factories": 1,
+    "resources": {
+      "aluminum": 3
+    },
+    "population": 213,
+    "resistance": 0.2,
+    "supply": 4,
+    "air_coverage": 2
+  },
+  "prov_11_7": {
+    "id": "prov_11_7",
+    "name": "Region 11-7",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      11,
+      7
+    ],
+    "infrastructure": 2,
+    "factories": 2,
+    "resources": {
+      "rubber": 4
+    },
+    "population": 220,
+    "resistance": 0.30000000000000004,
+    "supply": 5,
+    "air_coverage": 3
+  },
+  "prov_11_8": {
+    "id": "prov_11_8",
+    "name": "Region 11-8",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      11,
+      8
+    ],
+    "infrastructure": 3,
+    "factories": 3,
+    "resources": {
+      "tungsten": 5
+    },
+    "population": 227,
+    "resistance": 0.4,
+    "supply": 6,
+    "air_coverage": 4
+  },
+  "prov_11_9": {
+    "id": "prov_11_9",
+    "name": "Region 11-9",
+    "owner": "SOV",
+    "controller": "SOV",
+    "owner_color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "grid": [
+      11,
+      9
+    ],
+    "infrastructure": 4,
+    "factories": 0,
+    "resources": {
+      "steel": 6
+    },
+    "population": 234,
+    "resistance": 0.0,
+    "supply": 3,
+    "air_coverage": 0
+  }
+}

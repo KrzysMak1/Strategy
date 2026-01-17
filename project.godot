@@ -1,0 +1,18 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+config/name="Frontline Dominion"
+run/main_scene="res://src/MainMenu.tscn"
+config/icon="res://assets/icon.svg"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/mode=1
+
+[input]
+ui_left={"deadzone":0.5,"events":[{"type":"key","keycode":65}]}
+ui_right={"deadzone":0.5,"events":[{"type":"key","keycode":68}]}
+ui_up={"deadzone":0.5,"events":[{"type":"key","keycode":87}]}
+ui_down={"deadzone":0.5,"events":[{"type":"key","keycode":83}]}

@@ -1,0 +1,13 @@
+{
+  "BRA": {
+    "id": "BRA",
+    "name": "Konfederacja Atlantycka",
+    "ideology": "neutral",
+    "color": [0.1, 0.7, 0.5],
+    "capital": "mod_prov_1_1",
+    "factories_civilian": 6,
+    "factories_military": 2,
+    "stability": 0.55,
+    "war_support": 0.35
+  }
+}
