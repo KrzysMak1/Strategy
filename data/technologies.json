@@ -1,0 +1,772 @@
+{
+  "artillery_1": {
+    "id": "artillery_1",
+    "name": "Artillery Program 1",
+    "category": "artillery",
+    "year": 1937,
+    "cost": 124,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.02
+    }
+  },
+  "armor_2": {
+    "id": "armor_2",
+    "name": "Armor Program 2",
+    "category": "armor",
+    "year": 1938,
+    "cost": 128,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.04
+    }
+  },
+  "air_3": {
+    "id": "air_3",
+    "name": "Air Program 3",
+    "category": "air",
+    "year": 1939,
+    "cost": 132,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.0
+    }
+  },
+  "navy_4": {
+    "id": "navy_4",
+    "name": "Navy Program 4",
+    "category": "navy",
+    "year": 1940,
+    "cost": 136,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.02
+    }
+  },
+  "industry_5": {
+    "id": "industry_5",
+    "name": "Industry Program 5",
+    "category": "industry",
+    "year": 1941,
+    "cost": 140,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.04
+    }
+  },
+  "doctrine_6": {
+    "id": "doctrine_6",
+    "name": "Doctrine Program 6",
+    "category": "doctrine",
+    "year": 1942,
+    "cost": 144,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.0
+    }
+  },
+  "infantry_7": {
+    "id": "infantry_7",
+    "name": "Infantry Program 7",
+    "category": "infantry",
+    "year": 1943,
+    "cost": 148,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.02
+    }
+  },
+  "artillery_8": {
+    "id": "artillery_8",
+    "name": "Artillery Program 8",
+    "category": "artillery",
+    "year": 1944,
+    "cost": 152,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.04
+    }
+  },
+  "armor_9": {
+    "id": "armor_9",
+    "name": "Armor Program 9",
+    "category": "armor",
+    "year": 1945,
+    "cost": 156,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.0
+    }
+  },
+  "air_10": {
+    "id": "air_10",
+    "name": "Air Program 10",
+    "category": "air",
+    "year": 1936,
+    "cost": 160,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.02
+    }
+  },
+  "navy_11": {
+    "id": "navy_11",
+    "name": "Navy Program 11",
+    "category": "navy",
+    "year": 1937,
+    "cost": 164,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.04
+    }
+  },
+  "industry_12": {
+    "id": "industry_12",
+    "name": "Industry Program 12",
+    "category": "industry",
+    "year": 1938,
+    "cost": 168,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.0
+    }
+  },
+  "doctrine_13": {
+    "id": "doctrine_13",
+    "name": "Doctrine Program 13",
+    "category": "doctrine",
+    "year": 1939,
+    "cost": 172,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.02
+    }
+  },
+  "infantry_14": {
+    "id": "infantry_14",
+    "name": "Infantry Program 14",
+    "category": "infantry",
+    "year": 1940,
+    "cost": 176,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.04
+    }
+  },
+  "artillery_15": {
+    "id": "artillery_15",
+    "name": "Artillery Program 15",
+    "category": "artillery",
+    "year": 1941,
+    "cost": 180,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.0
+    }
+  },
+  "armor_16": {
+    "id": "armor_16",
+    "name": "Armor Program 16",
+    "category": "armor",
+    "year": 1942,
+    "cost": 184,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.02
+    }
+  },
+  "air_17": {
+    "id": "air_17",
+    "name": "Air Program 17",
+    "category": "air",
+    "year": 1943,
+    "cost": 188,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.04
+    }
+  },
+  "navy_18": {
+    "id": "navy_18",
+    "name": "Navy Program 18",
+    "category": "navy",
+    "year": 1944,
+    "cost": 192,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.0
+    }
+  },
+  "industry_19": {
+    "id": "industry_19",
+    "name": "Industry Program 19",
+    "category": "industry",
+    "year": 1945,
+    "cost": 196,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.02
+    }
+  },
+  "doctrine_20": {
+    "id": "doctrine_20",
+    "name": "Doctrine Program 20",
+    "category": "doctrine",
+    "year": 1936,
+    "cost": 200,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.04
+    }
+  },
+  "infantry_21": {
+    "id": "infantry_21",
+    "name": "Infantry Program 21",
+    "category": "infantry",
+    "year": 1937,
+    "cost": 204,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.0
+    }
+  },
+  "artillery_22": {
+    "id": "artillery_22",
+    "name": "Artillery Program 22",
+    "category": "artillery",
+    "year": 1938,
+    "cost": 208,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.02
+    }
+  },
+  "armor_23": {
+    "id": "armor_23",
+    "name": "Armor Program 23",
+    "category": "armor",
+    "year": 1939,
+    "cost": 212,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.04
+    }
+  },
+  "air_24": {
+    "id": "air_24",
+    "name": "Air Program 24",
+    "category": "air",
+    "year": 1940,
+    "cost": 216,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.0
+    }
+  },
+  "navy_25": {
+    "id": "navy_25",
+    "name": "Navy Program 25",
+    "category": "navy",
+    "year": 1941,
+    "cost": 220,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.02
+    }
+  },
+  "industry_26": {
+    "id": "industry_26",
+    "name": "Industry Program 26",
+    "category": "industry",
+    "year": 1942,
+    "cost": 224,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.04
+    }
+  },
+  "doctrine_27": {
+    "id": "doctrine_27",
+    "name": "Doctrine Program 27",
+    "category": "doctrine",
+    "year": 1943,
+    "cost": 228,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.0
+    }
+  },
+  "infantry_28": {
+    "id": "infantry_28",
+    "name": "Infantry Program 28",
+    "category": "infantry",
+    "year": 1944,
+    "cost": 232,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.02
+    }
+  },
+  "artillery_29": {
+    "id": "artillery_29",
+    "name": "Artillery Program 29",
+    "category": "artillery",
+    "year": 1945,
+    "cost": 236,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.04
+    }
+  },
+  "armor_30": {
+    "id": "armor_30",
+    "name": "Armor Program 30",
+    "category": "armor",
+    "year": 1936,
+    "cost": 240,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.0
+    }
+  },
+  "air_31": {
+    "id": "air_31",
+    "name": "Air Program 31",
+    "category": "air",
+    "year": 1937,
+    "cost": 244,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.02
+    }
+  },
+  "navy_32": {
+    "id": "navy_32",
+    "name": "Navy Program 32",
+    "category": "navy",
+    "year": 1938,
+    "cost": 248,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.04
+    }
+  },
+  "industry_33": {
+    "id": "industry_33",
+    "name": "Industry Program 33",
+    "category": "industry",
+    "year": 1939,
+    "cost": 252,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.0
+    }
+  },
+  "doctrine_34": {
+    "id": "doctrine_34",
+    "name": "Doctrine Program 34",
+    "category": "doctrine",
+    "year": 1940,
+    "cost": 256,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.02
+    }
+  },
+  "infantry_35": {
+    "id": "infantry_35",
+    "name": "Infantry Program 35",
+    "category": "infantry",
+    "year": 1941,
+    "cost": 260,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.04
+    }
+  },
+  "artillery_36": {
+    "id": "artillery_36",
+    "name": "Artillery Program 36",
+    "category": "artillery",
+    "year": 1942,
+    "cost": 264,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.0
+    }
+  },
+  "armor_37": {
+    "id": "armor_37",
+    "name": "Armor Program 37",
+    "category": "armor",
+    "year": 1943,
+    "cost": 268,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.02
+    }
+  },
+  "air_38": {
+    "id": "air_38",
+    "name": "Air Program 38",
+    "category": "air",
+    "year": 1944,
+    "cost": 272,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.04
+    }
+  },
+  "navy_39": {
+    "id": "navy_39",
+    "name": "Navy Program 39",
+    "category": "navy",
+    "year": 1945,
+    "cost": 276,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.0
+    }
+  },
+  "industry_40": {
+    "id": "industry_40",
+    "name": "Industry Program 40",
+    "category": "industry",
+    "year": 1936,
+    "cost": 280,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.02
+    }
+  },
+  "doctrine_41": {
+    "id": "doctrine_41",
+    "name": "Doctrine Program 41",
+    "category": "doctrine",
+    "year": 1937,
+    "cost": 284,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.04
+    }
+  },
+  "infantry_42": {
+    "id": "infantry_42",
+    "name": "Infantry Program 42",
+    "category": "infantry",
+    "year": 1938,
+    "cost": 288,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.0
+    }
+  },
+  "artillery_43": {
+    "id": "artillery_43",
+    "name": "Artillery Program 43",
+    "category": "artillery",
+    "year": 1939,
+    "cost": 292,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.02
+    }
+  },
+  "armor_44": {
+    "id": "armor_44",
+    "name": "Armor Program 44",
+    "category": "armor",
+    "year": 1940,
+    "cost": 296,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.04
+    }
+  },
+  "air_45": {
+    "id": "air_45",
+    "name": "Air Program 45",
+    "category": "air",
+    "year": 1941,
+    "cost": 300,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.0
+    }
+  },
+  "navy_46": {
+    "id": "navy_46",
+    "name": "Navy Program 46",
+    "category": "navy",
+    "year": 1942,
+    "cost": 304,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.02
+    }
+  },
+  "industry_47": {
+    "id": "industry_47",
+    "name": "Industry Program 47",
+    "category": "industry",
+    "year": 1943,
+    "cost": 308,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.04
+    }
+  },
+  "doctrine_48": {
+    "id": "doctrine_48",
+    "name": "Doctrine Program 48",
+    "category": "doctrine",
+    "year": 1944,
+    "cost": 312,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.0
+    }
+  },
+  "infantry_49": {
+    "id": "infantry_49",
+    "name": "Infantry Program 49",
+    "category": "infantry",
+    "year": 1945,
+    "cost": 316,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.02
+    }
+  },
+  "artillery_50": {
+    "id": "artillery_50",
+    "name": "Artillery Program 50",
+    "category": "artillery",
+    "year": 1936,
+    "cost": 320,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.04
+    }
+  },
+  "armor_51": {
+    "id": "armor_51",
+    "name": "Armor Program 51",
+    "category": "armor",
+    "year": 1937,
+    "cost": 324,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.0
+    }
+  },
+  "air_52": {
+    "id": "air_52",
+    "name": "Air Program 52",
+    "category": "air",
+    "year": 1938,
+    "cost": 328,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.02
+    }
+  },
+  "navy_53": {
+    "id": "navy_53",
+    "name": "Navy Program 53",
+    "category": "navy",
+    "year": 1939,
+    "cost": 332,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.04
+    }
+  },
+  "industry_54": {
+    "id": "industry_54",
+    "name": "Industry Program 54",
+    "category": "industry",
+    "year": 1940,
+    "cost": 336,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.0
+    }
+  },
+  "doctrine_55": {
+    "id": "doctrine_55",
+    "name": "Doctrine Program 55",
+    "category": "doctrine",
+    "year": 1941,
+    "cost": 340,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.02
+    }
+  },
+  "infantry_56": {
+    "id": "infantry_56",
+    "name": "Infantry Program 56",
+    "category": "infantry",
+    "year": 1942,
+    "cost": 344,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.04
+    }
+  },
+  "artillery_57": {
+    "id": "artillery_57",
+    "name": "Artillery Program 57",
+    "category": "artillery",
+    "year": 1943,
+    "cost": 348,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.0
+    }
+  },
+  "armor_58": {
+    "id": "armor_58",
+    "name": "Armor Program 58",
+    "category": "armor",
+    "year": 1944,
+    "cost": 352,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.02
+    }
+  },
+  "air_59": {
+    "id": "air_59",
+    "name": "Air Program 59",
+    "category": "air",
+    "year": 1945,
+    "cost": 356,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.04
+    }
+  },
+  "navy_60": {
+    "id": "navy_60",
+    "name": "Navy Program 60",
+    "category": "navy",
+    "year": 1936,
+    "cost": 360,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.0
+    }
+  },
+  "industry_61": {
+    "id": "industry_61",
+    "name": "Industry Program 61",
+    "category": "industry",
+    "year": 1937,
+    "cost": 364,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.02
+    }
+  },
+  "doctrine_62": {
+    "id": "doctrine_62",
+    "name": "Doctrine Program 62",
+    "category": "doctrine",
+    "year": 1938,
+    "cost": 368,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.04
+    }
+  },
+  "infantry_63": {
+    "id": "infantry_63",
+    "name": "Infantry Program 63",
+    "category": "infantry",
+    "year": 1939,
+    "cost": 372,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.0
+    }
+  },
+  "artillery_64": {
+    "id": "artillery_64",
+    "name": "Artillery Program 64",
+    "category": "artillery",
+    "year": 1940,
+    "cost": 376,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.02
+    }
+  },
+  "armor_65": {
+    "id": "armor_65",
+    "name": "Armor Program 65",
+    "category": "armor",
+    "year": 1941,
+    "cost": 380,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.04
+    }
+  },
+  "air_66": {
+    "id": "air_66",
+    "name": "Air Program 66",
+    "category": "air",
+    "year": 1942,
+    "cost": 384,
+    "effects": {
+      "attack": 0.01,
+      "production": 0.0
+    }
+  },
+  "navy_67": {
+    "id": "navy_67",
+    "name": "Navy Program 67",
+    "category": "navy",
+    "year": 1943,
+    "cost": 388,
+    "effects": {
+      "attack": 0.02,
+      "production": 0.02
+    }
+  },
+  "industry_68": {
+    "id": "industry_68",
+    "name": "Industry Program 68",
+    "category": "industry",
+    "year": 1944,
+    "cost": 392,
+    "effects": {
+      "attack": 0.03,
+      "production": 0.04
+    }
+  },
+  "doctrine_69": {
+    "id": "doctrine_69",
+    "name": "Doctrine Program 69",
+    "category": "doctrine",
+    "year": 1945,
+    "cost": 396,
+    "effects": {
+      "attack": 0.04,
+      "production": 0.0
+    }
+  },
+  "infantry_70": {
+    "id": "infantry_70",
+    "name": "Infantry Program 70",
+    "category": "infantry",
+    "year": 1936,
+    "cost": 400,
+    "effects": {
+      "attack": 0.0,
+      "production": 0.02
+    }
+  }
+}

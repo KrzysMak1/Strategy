@@ -1,0 +1,11 @@
+{
+  "BRA": {
+    "id": "BRA",
+    "name": "Drzewko Atlantyckie",
+    "nodes": [
+      {"id": "BRA_industrial_seed", "name": "Ziarno przemysłu", "description": "Pierwsze inwestycje w porty i warsztaty.", "time_hours": 168, "prerequisites": [], "effects": {"factories": 1}},
+      {"id": "BRA_maritime_guard", "name": "Straż morska", "description": "Rozbudowa floty przybrzeżnej.", "time_hours": 168, "prerequisites": ["BRA_industrial_seed"], "effects": {"political_power": 4}},
+      {"id": "BRA_open_harbors", "name": "Otwarte porty", "description": "Co gdyby: liberalizacja handlu.", "time_hours": 168, "prerequisites": ["BRA_maritime_guard"], "effects": {"world_tension": -0.01}}
+    ]
+  }
+}

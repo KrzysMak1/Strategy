@@ -1,0 +1,2252 @@
+{
+  "event_1": {
+    "id": "event_1",
+    "title": "Raport strategiczny 1",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 1 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_2": {
+    "id": "event_2",
+    "title": "Raport strategiczny 2",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 2 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_3": {
+    "id": "event_3",
+    "title": "Raport strategiczny 3",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 3 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_4": {
+    "id": "event_4",
+    "title": "Raport strategiczny 4",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 4 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_5": {
+    "id": "event_5",
+    "title": "Raport strategiczny 5",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 5 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_6": {
+    "id": "event_6",
+    "title": "Raport strategiczny 6",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 6 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_7": {
+    "id": "event_7",
+    "title": "Raport strategiczny 7",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 7 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_8": {
+    "id": "event_8",
+    "title": "Raport strategiczny 8",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 8 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_9": {
+    "id": "event_9",
+    "title": "Raport strategiczny 9",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 9 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_10": {
+    "id": "event_10",
+    "title": "Raport strategiczny 10",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 10 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_11": {
+    "id": "event_11",
+    "title": "Raport strategiczny 11",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 11 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_12": {
+    "id": "event_12",
+    "title": "Raport strategiczny 12",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 12 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_13": {
+    "id": "event_13",
+    "title": "Raport strategiczny 13",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 13 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_14": {
+    "id": "event_14",
+    "title": "Raport strategiczny 14",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 14 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_15": {
+    "id": "event_15",
+    "title": "Raport strategiczny 15",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 15 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_16": {
+    "id": "event_16",
+    "title": "Raport strategiczny 16",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 16 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_17": {
+    "id": "event_17",
+    "title": "Raport strategiczny 17",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 17 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_18": {
+    "id": "event_18",
+    "title": "Raport strategiczny 18",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 18 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_19": {
+    "id": "event_19",
+    "title": "Raport strategiczny 19",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 19 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_20": {
+    "id": "event_20",
+    "title": "Raport strategiczny 20",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 20 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_21": {
+    "id": "event_21",
+    "title": "Raport strategiczny 21",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 21 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_22": {
+    "id": "event_22",
+    "title": "Raport strategiczny 22",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 22 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_23": {
+    "id": "event_23",
+    "title": "Raport strategiczny 23",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 23 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_24": {
+    "id": "event_24",
+    "title": "Raport strategiczny 24",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 24 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_25": {
+    "id": "event_25",
+    "title": "Raport strategiczny 25",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 25 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_26": {
+    "id": "event_26",
+    "title": "Raport strategiczny 26",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 26 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_27": {
+    "id": "event_27",
+    "title": "Raport strategiczny 27",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 27 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_28": {
+    "id": "event_28",
+    "title": "Raport strategiczny 28",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 28 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_29": {
+    "id": "event_29",
+    "title": "Raport strategiczny 29",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 29 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_30": {
+    "id": "event_30",
+    "title": "Raport strategiczny 30",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 30 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_31": {
+    "id": "event_31",
+    "title": "Raport strategiczny 31",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 31 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_32": {
+    "id": "event_32",
+    "title": "Raport strategiczny 32",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 32 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_33": {
+    "id": "event_33",
+    "title": "Raport strategiczny 33",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 33 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_34": {
+    "id": "event_34",
+    "title": "Raport strategiczny 34",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 34 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_35": {
+    "id": "event_35",
+    "title": "Raport strategiczny 35",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 35 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_36": {
+    "id": "event_36",
+    "title": "Raport strategiczny 36",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 36 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_37": {
+    "id": "event_37",
+    "title": "Raport strategiczny 37",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 37 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_38": {
+    "id": "event_38",
+    "title": "Raport strategiczny 38",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 38 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_39": {
+    "id": "event_39",
+    "title": "Raport strategiczny 39",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 39 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_40": {
+    "id": "event_40",
+    "title": "Raport strategiczny 40",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 40 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_41": {
+    "id": "event_41",
+    "title": "Raport strategiczny 41",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 41 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_42": {
+    "id": "event_42",
+    "title": "Raport strategiczny 42",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 42 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_43": {
+    "id": "event_43",
+    "title": "Raport strategiczny 43",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 43 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_44": {
+    "id": "event_44",
+    "title": "Raport strategiczny 44",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 44 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_45": {
+    "id": "event_45",
+    "title": "Raport strategiczny 45",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 45 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_46": {
+    "id": "event_46",
+    "title": "Raport strategiczny 46",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 46 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_47": {
+    "id": "event_47",
+    "title": "Raport strategiczny 47",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 47 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_48": {
+    "id": "event_48",
+    "title": "Raport strategiczny 48",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 48 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_49": {
+    "id": "event_49",
+    "title": "Raport strategiczny 49",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 49 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_50": {
+    "id": "event_50",
+    "title": "Raport strategiczny 50",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 50 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_51": {
+    "id": "event_51",
+    "title": "Raport strategiczny 51",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 51 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_52": {
+    "id": "event_52",
+    "title": "Raport strategiczny 52",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 52 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_53": {
+    "id": "event_53",
+    "title": "Raport strategiczny 53",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 53 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_54": {
+    "id": "event_54",
+    "title": "Raport strategiczny 54",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 54 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_55": {
+    "id": "event_55",
+    "title": "Raport strategiczny 55",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 55 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_56": {
+    "id": "event_56",
+    "title": "Raport strategiczny 56",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 56 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_57": {
+    "id": "event_57",
+    "title": "Raport strategiczny 57",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 57 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_58": {
+    "id": "event_58",
+    "title": "Raport strategiczny 58",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 58 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_59": {
+    "id": "event_59",
+    "title": "Raport strategiczny 59",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 59 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_60": {
+    "id": "event_60",
+    "title": "Raport strategiczny 60",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 60 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_61": {
+    "id": "event_61",
+    "title": "Raport strategiczny 61",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 61 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_62": {
+    "id": "event_62",
+    "title": "Raport strategiczny 62",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 62 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_63": {
+    "id": "event_63",
+    "title": "Raport strategiczny 63",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 63 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_64": {
+    "id": "event_64",
+    "title": "Raport strategiczny 64",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 64 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_65": {
+    "id": "event_65",
+    "title": "Raport strategiczny 65",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 65 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_66": {
+    "id": "event_66",
+    "title": "Raport strategiczny 66",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 66 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_67": {
+    "id": "event_67",
+    "title": "Raport strategiczny 67",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 67 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_68": {
+    "id": "event_68",
+    "title": "Raport strategiczny 68",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 68 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_69": {
+    "id": "event_69",
+    "title": "Raport strategiczny 69",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 69 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_70": {
+    "id": "event_70",
+    "title": "Raport strategiczny 70",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 70 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_71": {
+    "id": "event_71",
+    "title": "Raport strategiczny 71",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 71 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_72": {
+    "id": "event_72",
+    "title": "Raport strategiczny 72",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 72 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_73": {
+    "id": "event_73",
+    "title": "Raport strategiczny 73",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 73 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_74": {
+    "id": "event_74",
+    "title": "Raport strategiczny 74",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 74 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_75": {
+    "id": "event_75",
+    "title": "Raport strategiczny 75",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 75 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_76": {
+    "id": "event_76",
+    "title": "Raport strategiczny 76",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 76 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_77": {
+    "id": "event_77",
+    "title": "Raport strategiczny 77",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 77 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_78": {
+    "id": "event_78",
+    "title": "Raport strategiczny 78",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 78 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_79": {
+    "id": "event_79",
+    "title": "Raport strategiczny 79",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 79 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_80": {
+    "id": "event_80",
+    "title": "Raport strategiczny 80",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 80 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_81": {
+    "id": "event_81",
+    "title": "Raport strategiczny 81",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 81 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_82": {
+    "id": "event_82",
+    "title": "Raport strategiczny 82",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 82 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_83": {
+    "id": "event_83",
+    "title": "Raport strategiczny 83",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 83 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_84": {
+    "id": "event_84",
+    "title": "Raport strategiczny 84",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 84 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_85": {
+    "id": "event_85",
+    "title": "Raport strategiczny 85",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 85 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_86": {
+    "id": "event_86",
+    "title": "Raport strategiczny 86",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 86 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_87": {
+    "id": "event_87",
+    "title": "Raport strategiczny 87",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 87 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_88": {
+    "id": "event_88",
+    "title": "Raport strategiczny 88",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 88 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_89": {
+    "id": "event_89",
+    "title": "Raport strategiczny 89",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 89 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  },
+  "event_90": {
+    "id": "event_90",
+    "title": "Raport strategiczny 90",
+    "description": "Sztab przedstawia analiz\u0119 sytuacji nr 90 i mo\u017cliwe dzia\u0142ania.",
+    "options": [
+      {
+        "text": "Zwi\u0119ksz czujno\u015b\u0107",
+        "effects": {
+          "world_tension": 0.01
+        }
+      },
+      {
+        "text": "Inwestuj w przemys\u0142",
+        "effects": {
+          "factories": 1
+        }
+      },
+      {
+        "text": "Skonsoliduj w\u0142adz\u0119",
+        "effects": {
+          "political_power": 5
+        }
+      }
+    ]
+  }
+}

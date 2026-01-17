@@ -1,0 +1,204 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://src/Main.gd" id="1"]
+[ext_resource type="Script" path="res://src/MapController.gd" id="2"]
+[ext_resource type="Script" path="res://src/FocusTreeView.gd" id="3"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2(1, 1)
+
+[node name="MapController" type="Node2D" parent="."]
+script = ExtResource("2")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="UI" type="Control" parent="CanvasLayer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="TopBar" type="Panel" parent="CanvasLayer/UI"]
+anchor_right = 1.0
+size_flags_horizontal = 3
+offset_bottom = 40.0
+
+[node name="CountryLabel" type="Label" parent="CanvasLayer/UI/TopBar"]
+text = "Country"
+offset_left = 8.0
+offset_top = 8.0
+
+[node name="DateLabel" type="Label" parent="CanvasLayer/UI/TopBar"]
+text = "Date"
+anchor_right = 0.5
+offset_left = 320.0
+offset_top = 8.0
+
+[node name="ResourcesLabel" type="Label" parent="CanvasLayer/UI/TopBar"]
+text = "Resources"
+anchor_right = 1.0
+offset_left = 560.0
+offset_top = 8.0
+
+[node name="SpeedButtons" type="HBoxContainer" parent="CanvasLayer/UI/TopBar"]
+anchor_right = 1.0
+anchor_left = 1.0
+offset_left = -220.0
+offset_top = 4.0
+
+[node name="PauseButton" type="Button" parent="CanvasLayer/UI/TopBar/SpeedButtons"]
+text = "Pause"
+
+[node name="Speed1" type="Button" parent="CanvasLayer/UI/TopBar/SpeedButtons"]
+text = "x1"
+
+[node name="Speed2" type="Button" parent="CanvasLayer/UI/TopBar/SpeedButtons"]
+text = "x2"
+
+[node name="Speed4" type="Button" parent="CanvasLayer/UI/TopBar/SpeedButtons"]
+text = "x4"
+
+[node name="LeftPanel" type="Panel" parent="CanvasLayer/UI"]
+anchor_bottom = 1.0
+offset_top = 48.0
+offset_right = 260.0
+
+[node name="FocusLabel" type="Label" parent="CanvasLayer/UI/LeftPanel"]
+text = "Focus"
+offset_left = 12.0
+offset_top = 12.0
+
+[node name="FocusButton" type="Button" parent="CanvasLayer/UI/LeftPanel"]
+text = "Start Focus"
+offset_left = 12.0
+offset_top = 40.0
+
+[node name="MoveButton" type="Button" parent="CanvasLayer/UI/LeftPanel"]
+text = "Rozkaz: Ruch"
+offset_left = 12.0
+offset_top = 80.0
+
+[node name="RightPanel" type="Panel" parent="CanvasLayer/UI"]
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -260.0
+offset_top = 48.0
+
+[node name="ProvinceLabel" type="Label" parent="CanvasLayer/UI/RightPanel"]
+text = "Province info"
+offset_left = 12.0
+offset_top = 12.0
+
+[node name="ArmyLabel" type="Label" parent="CanvasLayer/UI/RightPanel"]
+text = "Army info"
+offset_left = 12.0
+offset_top = 140.0
+
+[node name="Tabs" type="TabContainer" parent="CanvasLayer/UI"]
+anchor_left = 0.25
+anchor_right = 0.75
+anchor_top = 0.1
+anchor_bottom = 0.9
+
+[node name="FocusTab" type="Panel" parent="CanvasLayer/UI/Tabs"]
+name = "Focus"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="CanvasLayer/UI/Tabs/FocusTab"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="FocusTreeView" type="Control" parent="CanvasLayer/UI/Tabs/FocusTab/ScrollContainer"]
+script = ExtResource("3")
+custom_minimum_size = Vector2(900, 800)
+
+[node name="ProductionTab" type="Panel" parent="CanvasLayer/UI/Tabs"]
+name = "Production"
+
+[node name="ProductionList" type="ItemList" parent="CanvasLayer/UI/Tabs/ProductionTab"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="ResearchTab" type="Panel" parent="CanvasLayer/UI/Tabs"]
+name = "Research"
+
+[node name="TechList" type="ItemList" parent="CanvasLayer/UI/Tabs/ResearchTab"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="DiplomacyTab" type="Panel" parent="CanvasLayer/UI/Tabs"]
+name = "Diplomacy"
+
+[node name="CountryList" type="ItemList" parent="CanvasLayer/UI/Tabs/DiplomacyTab"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="DecisionsTab" type="Panel" parent="CanvasLayer/UI/Tabs"]
+name = "Decisions"
+
+[node name="DecisionList" type="ItemList" parent="CanvasLayer/UI/Tabs/DecisionsTab"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="LogTab" type="Panel" parent="CanvasLayer/UI/Tabs"]
+name = "Log"
+
+[node name="LogText" type="RichTextLabel" parent="CanvasLayer/UI/Tabs/LogTab"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="EventPopup" type="PopupPanel" parent="CanvasLayer/UI"]
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_right = 240.0
+offset_top = -160.0
+offset_bottom = 160.0
+
+[node name="EventText" type="RichTextLabel" parent="CanvasLayer/UI/EventPopup"]
+anchor_right = 1.0
+anchor_bottom = 0.7
+
+[node name="EventButtons" type="VBoxContainer" parent="CanvasLayer/UI/EventPopup"]
+anchor_top = 0.7
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="DebugPanel" type="Panel" parent="CanvasLayer/UI"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = -40.0
+offset_right = -8.0
+
+[node name="DebugLabel" type="Label" parent="CanvasLayer/UI/DebugPanel"]
+text = "Debug"
+offset_left = 12.0
+offset_top = 8.0
+
+[node name="DataErrorPanel" type="Panel" parent="CanvasLayer/UI"]
+visible = false
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -260.0
+offset_right = 260.0
+offset_top = -160.0
+offset_bottom = 160.0
+
+[node name="DataErrorText" type="RichTextLabel" parent="CanvasLayer/UI/DataErrorPanel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[connection signal="pressed" from="CanvasLayer/UI/LeftPanel/FocusButton" to="." method="_on_focus_start_pressed"]
+[connection signal="pressed" from="CanvasLayer/UI/LeftPanel/MoveButton" to="." method="_on_move_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/UI/TopBar/SpeedButtons/PauseButton" to="." method="_on_speed_button_pressed" binds=[0]]
+[connection signal="pressed" from="CanvasLayer/UI/TopBar/SpeedButtons/Speed1" to="." method="_on_speed_button_pressed" binds=[1]]
+[connection signal="pressed" from="CanvasLayer/UI/TopBar/SpeedButtons/Speed2" to="." method="_on_speed_button_pressed" binds=[2]]
+[connection signal="pressed" from="CanvasLayer/UI/TopBar/SpeedButtons/Speed4" to="." method="_on_speed_button_pressed" binds=[3]]

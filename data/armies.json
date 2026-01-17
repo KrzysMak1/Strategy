@@ -1,0 +1,186 @@
+{
+  "GER_army_1": {
+    "id": "GER_army_1",
+    "name": "1 Armia GER",
+    "country_id": "GER",
+    "province_id": "prov_5_5",
+    "units": [
+      {
+        "type": "infantry",
+        "count": 6
+      },
+      {
+        "type": "motorized",
+        "count": 2
+      },
+      {
+        "type": "artillery",
+        "count": 2
+      }
+    ],
+    "organization": 40.0,
+    "path": [],
+    "move_timer": 0.0
+  },
+  "POL_army_1": {
+    "id": "POL_army_1",
+    "name": "1 Armia POL",
+    "country_id": "POL",
+    "province_id": "prov_4_6",
+    "units": [
+      {
+        "type": "infantry",
+        "count": 6
+      },
+      {
+        "type": "motorized",
+        "count": 2
+      },
+      {
+        "type": "artillery",
+        "count": 2
+      }
+    ],
+    "organization": 40.0,
+    "path": [],
+    "move_timer": 0.0
+  },
+  "SOV_army_1": {
+    "id": "SOV_army_1",
+    "name": "1 Armia SOV",
+    "country_id": "SOV",
+    "province_id": "prov_8_5",
+    "units": [
+      {
+        "type": "infantry",
+        "count": 6
+      },
+      {
+        "type": "motorized",
+        "count": 2
+      },
+      {
+        "type": "artillery",
+        "count": 2
+      }
+    ],
+    "organization": 40.0,
+    "path": [],
+    "move_timer": 0.0
+  },
+  "ENG_army_1": {
+    "id": "ENG_army_1",
+    "name": "1 Armia ENG",
+    "country_id": "ENG",
+    "province_id": "prov_1_3",
+    "units": [
+      {
+        "type": "infantry",
+        "count": 6
+      },
+      {
+        "type": "motorized",
+        "count": 2
+      },
+      {
+        "type": "artillery",
+        "count": 2
+      }
+    ],
+    "organization": 40.0,
+    "path": [],
+    "move_timer": 0.0
+  },
+  "FRA_army_1": {
+    "id": "FRA_army_1",
+    "name": "1 Armia FRA",
+    "country_id": "FRA",
+    "province_id": "prov_2_4",
+    "units": [
+      {
+        "type": "infantry",
+        "count": 6
+      },
+      {
+        "type": "motorized",
+        "count": 2
+      },
+      {
+        "type": "artillery",
+        "count": 2
+      }
+    ],
+    "organization": 40.0,
+    "path": [],
+    "move_timer": 0.0
+  },
+  "USA_army_1": {
+    "id": "USA_army_1",
+    "name": "1 Armia USA",
+    "country_id": "USA",
+    "province_id": "prov_0_4",
+    "units": [
+      {
+        "type": "infantry",
+        "count": 6
+      },
+      {
+        "type": "motorized",
+        "count": 2
+      },
+      {
+        "type": "artillery",
+        "count": 2
+      }
+    ],
+    "organization": 40.0,
+    "path": [],
+    "move_timer": 0.0
+  },
+  "ITA_army_1": {
+    "id": "ITA_army_1",
+    "name": "1 Armia ITA",
+    "country_id": "ITA",
+    "province_id": "prov_3_7",
+    "units": [
+      {
+        "type": "infantry",
+        "count": 6
+      },
+      {
+        "type": "motorized",
+        "count": 2
+      },
+      {
+        "type": "artillery",
+        "count": 2
+      }
+    ],
+    "organization": 40.0,
+    "path": [],
+    "move_timer": 0.0
+  },
+  "JPN_army_1": {
+    "id": "JPN_army_1",
+    "name": "1 Armia JPN",
+    "country_id": "JPN",
+    "province_id": "prov_10_3",
+    "units": [
+      {
+        "type": "infantry",
+        "count": 6
+      },
+      {
+        "type": "motorized",
+        "count": 2
+      },
+      {
+        "type": "artillery",
+        "count": 2
+      }
+    ],
+    "organization": 40.0,
+    "path": [],
+    "move_timer": 0.0
+  }
+}

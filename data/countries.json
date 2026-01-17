@@ -1,0 +1,282 @@
+{
+  "GER": {
+    "id": "GER",
+    "name": "Rzesza Niemiecka",
+    "ideology": "fascism",
+    "color": [
+      0.35,
+      0.35,
+      0.35
+    ],
+    "capital": "prov_5_5",
+    "factories_civilian": 22,
+    "factories_military": 18,
+    "stability": 0.6,
+    "war_support": 0.65,
+    "research_slots": 2,
+    "stockpile": {
+      "infantry_equipment": 200,
+      "artillery": 60,
+      "support_equipment": 80
+    },
+    "starting_production": [
+      {
+        "equipment": "infantry_equipment",
+        "factories": 4,
+        "cost": 120,
+        "progress": 0
+      },
+      {
+        "equipment": "artillery",
+        "factories": 2,
+        "cost": 160,
+        "progress": 0
+      }
+    ]
+  },
+  "POL": {
+    "id": "POL",
+    "name": "Rzeczpospolita Polska",
+    "ideology": "neutral",
+    "color": [
+      0.82,
+      0.2,
+      0.2
+    ],
+    "capital": "prov_4_6",
+    "factories_civilian": 8,
+    "factories_military": 4,
+    "stability": 0.52,
+    "war_support": 0.45,
+    "research_slots": 2,
+    "stockpile": {
+      "infantry_equipment": 200,
+      "artillery": 60,
+      "support_equipment": 80
+    },
+    "starting_production": [
+      {
+        "equipment": "infantry_equipment",
+        "factories": 4,
+        "cost": 120,
+        "progress": 0
+      },
+      {
+        "equipment": "artillery",
+        "factories": 2,
+        "cost": 160,
+        "progress": 0
+      }
+    ]
+  },
+  "SOV": {
+    "id": "SOV",
+    "name": "Zwi\u0105zek Socjalistycznych Republik",
+    "ideology": "communism",
+    "color": [
+      0.75,
+      0.1,
+      0.1
+    ],
+    "capital": "prov_8_5",
+    "factories_civilian": 18,
+    "factories_military": 14,
+    "stability": 0.48,
+    "war_support": 0.55,
+    "research_slots": 2,
+    "stockpile": {
+      "infantry_equipment": 200,
+      "artillery": 60,
+      "support_equipment": 80
+    },
+    "starting_production": [
+      {
+        "equipment": "infantry_equipment",
+        "factories": 4,
+        "cost": 120,
+        "progress": 0
+      },
+      {
+        "equipment": "artillery",
+        "factories": 2,
+        "cost": 160,
+        "progress": 0
+      }
+    ]
+  },
+  "ENG": {
+    "id": "ENG",
+    "name": "Zjednoczone Kr\u00f3lestwo",
+    "ideology": "democracy",
+    "color": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "capital": "prov_1_3",
+    "factories_civilian": 20,
+    "factories_military": 10,
+    "stability": 0.68,
+    "war_support": 0.52,
+    "research_slots": 2,
+    "stockpile": {
+      "infantry_equipment": 200,
+      "artillery": 60,
+      "support_equipment": 80
+    },
+    "starting_production": [
+      {
+        "equipment": "infantry_equipment",
+        "factories": 4,
+        "cost": 120,
+        "progress": 0
+      },
+      {
+        "equipment": "artillery",
+        "factories": 2,
+        "cost": 160,
+        "progress": 0
+      }
+    ]
+  },
+  "FRA": {
+    "id": "FRA",
+    "name": "Republika Francuska",
+    "ideology": "democracy",
+    "color": [
+      0.1,
+      0.4,
+      0.7
+    ],
+    "capital": "prov_2_4",
+    "factories_civilian": 16,
+    "factories_military": 8,
+    "stability": 0.6,
+    "war_support": 0.5,
+    "research_slots": 2,
+    "stockpile": {
+      "infantry_equipment": 200,
+      "artillery": 60,
+      "support_equipment": 80
+    },
+    "starting_production": [
+      {
+        "equipment": "infantry_equipment",
+        "factories": 4,
+        "cost": 120,
+        "progress": 0
+      },
+      {
+        "equipment": "artillery",
+        "factories": 2,
+        "cost": 160,
+        "progress": 0
+      }
+    ]
+  },
+  "USA": {
+    "id": "USA",
+    "name": "Stany Zjednoczone",
+    "ideology": "democracy",
+    "color": [
+      0.1,
+      0.5,
+      0.3
+    ],
+    "capital": "prov_0_4",
+    "factories_civilian": 26,
+    "factories_military": 12,
+    "stability": 0.7,
+    "war_support": 0.4,
+    "research_slots": 2,
+    "stockpile": {
+      "infantry_equipment": 200,
+      "artillery": 60,
+      "support_equipment": 80
+    },
+    "starting_production": [
+      {
+        "equipment": "infantry_equipment",
+        "factories": 4,
+        "cost": 120,
+        "progress": 0
+      },
+      {
+        "equipment": "artillery",
+        "factories": 2,
+        "cost": 160,
+        "progress": 0
+      }
+    ]
+  },
+  "ITA": {
+    "id": "ITA",
+    "name": "Kr\u00f3lestwo Italii",
+    "ideology": "fascism",
+    "color": [
+      0.4,
+      0.6,
+      0.2
+    ],
+    "capital": "prov_3_7",
+    "factories_civilian": 10,
+    "factories_military": 6,
+    "stability": 0.5,
+    "war_support": 0.55,
+    "research_slots": 2,
+    "stockpile": {
+      "infantry_equipment": 200,
+      "artillery": 60,
+      "support_equipment": 80
+    },
+    "starting_production": [
+      {
+        "equipment": "infantry_equipment",
+        "factories": 4,
+        "cost": 120,
+        "progress": 0
+      },
+      {
+        "equipment": "artillery",
+        "factories": 2,
+        "cost": 160,
+        "progress": 0
+      }
+    ]
+  },
+  "JPN": {
+    "id": "JPN",
+    "name": "Cesarstwo Wyspiarskie",
+    "ideology": "fascism",
+    "color": [
+      0.8,
+      0.2,
+      0.2
+    ],
+    "capital": "prov_10_3",
+    "factories_civilian": 14,
+    "factories_military": 12,
+    "stability": 0.56,
+    "war_support": 0.6,
+    "research_slots": 2,
+    "stockpile": {
+      "infantry_equipment": 200,
+      "artillery": 60,
+      "support_equipment": 80
+    },
+    "starting_production": [
+      {
+        "equipment": "infantry_equipment",
+        "factories": 4,
+        "cost": 120,
+        "progress": 0
+      },
+      {
+        "equipment": "artillery",
+        "factories": 2,
+        "cost": 160,
+        "progress": 0
+      }
+    ]
+  }
+}

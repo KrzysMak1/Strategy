@@ -1,0 +1,17 @@
+{
+  "mod_prov_1_1": {
+    "id": "mod_prov_1_1",
+    "name": "Zatoka Atlantycka",
+    "owner": "BRA",
+    "controller": "BRA",
+    "owner_color": [0.1, 0.7, 0.5],
+    "grid": [11, 9],
+    "infrastructure": 4,
+    "factories": 1,
+    "resources": {"rubber": 4},
+    "population": 120,
+    "resistance": 0.0,
+    "supply": 4,
+    "air_coverage": 2
+  }
+}
