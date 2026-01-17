@@ -1,8 +1,11 @@
 extends Node
 class_name SaveSystem
 
+const SAVE_VERSION := 1
+
 func save(path: String, game_state: GameState) -> void:
     var data = {
+        "save_version": SAVE_VERSION,
         "countries": game_state.countries,
         "provinces": game_state.provinces,
         "units": game_state.units,
@@ -20,17 +23,13 @@ func save(path: String, game_state: GameState) -> void:
         "political_power": game_state.political_power,
         "focus_state": game_state.focus_state,
         "focus_progress": game_state.focus_progress,
+        "scenario_id": game_state.scenario_id,
         "current_day": game_state.current_day,
         "current_month": game_state.current_month,
         "current_year": game_state.current_year
     }
-    var dir = DirAccess.open("user://")
-    if dir != null:
-        if not dir.dir_exists("saves"):
-            dir.make_dir("saves")
-    var file = FileAccess.open(path, FileAccess.WRITE)
-    if file != null:
-        file.store_string(JSON.stringify(data, "  "))
+    _ensure_save_dir()
+    _atomic_write(path, JSON.stringify(data, "  "))
 
 func load(path: String, game_state: GameState) -> void:
     if not FileAccess.file_exists(path):
@@ -42,6 +41,9 @@ func load(path: String, game_state: GameState) -> void:
     var data = JSON.parse_string(content)
     if typeof(data) != TYPE_DICTIONARY:
         return
+    var version = int(data.get("save_version", 0))
+    if version < SAVE_VERSION:
+        data = _migrate_save(data, version)
     game_state.countries = data.get("countries", game_state.countries)
     game_state.provinces = data.get("provinces", game_state.provinces)
     game_state.units = data.get("units", game_state.units)
@@ -59,6 +61,34 @@ func load(path: String, game_state: GameState) -> void:
     game_state.political_power = data.get("political_power", game_state.political_power)
     game_state.focus_state = data.get("focus_state", game_state.focus_state)
     game_state.focus_progress = data.get("focus_progress", game_state.focus_progress)
+    game_state.scenario_id = data.get("scenario_id", game_state.scenario_id)
     game_state.current_day = data.get("current_day", game_state.current_day)
     game_state.current_month = data.get("current_month", game_state.current_month)
     game_state.current_year = data.get("current_year", game_state.current_year)
+
+func _ensure_save_dir() -> void:
+    var dir = DirAccess.open("user://")
+    if dir != null and not dir.dir_exists("saves"):
+        dir.make_dir("saves")
+
+func _atomic_write(path: String, payload: String) -> void:
+    var tmp_path = "%s.tmp" % path
+    var file = FileAccess.open(tmp_path, FileAccess.WRITE)
+    if file == null:
+        return
+    file.store_string(payload)
+    file.flush()
+    file.close()
+    var dir = DirAccess.open("user://")
+    if dir != null:
+        var from_path = tmp_path.replace("user://", "")
+        var to_path = path.replace("user://", "")
+        dir.rename(from_path, to_path)
+
+func _migrate_save(data: Dictionary, version: int) -> Dictionary:
+    var migrated = data.duplicate(true)
+    if version < 1:
+        migrated["save_version"] = SAVE_VERSION
+        if not migrated.has("scenario_id"):
+            migrated["scenario_id"] = ""
+    return migrated

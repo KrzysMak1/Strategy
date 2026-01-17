@@ -6,10 +6,25 @@ const MOD_PATH := "res://data/mods"
 
 var focus_index := {}
 var errors := []
+var safe_mode := false
 
 func load_all() -> Dictionary:
     errors.clear()
-    var result := {
+    safe_mode = false
+    var result := _load_base_data()
+    var mods_loaded = _load_mod_overrides(result)
+    _build_focus_index(result.get("focus_trees", {}))
+    _validate_data(result)
+    if not errors.is_empty() and mods_loaded:
+        safe_mode = true
+        errors.append("Safe Mode: wyłączono mody po błędach walidacji.")
+        result = _load_base_data()
+        _build_focus_index(result.get("focus_trees", {}))
+        _validate_data(result)
+    return result
+
+func _load_base_data() -> Dictionary:
+    return {
         "countries": _load_json("%s/countries.json" % DATA_PATH),
         "provinces": _load_json("%s/regions.json" % DATA_PATH),
         "technologies": _load_json("%s/technologies.json" % DATA_PATH),
@@ -17,29 +32,30 @@ func load_all() -> Dictionary:
         "events": _load_json("%s/events.json" % DATA_PATH),
         "focus_trees": _load_json("%s/focus_trees.json" % DATA_PATH),
         "decisions": _load_json("%s/decisions.json" % DATA_PATH),
-        "armies": _load_json("%s/armies.json" % DATA_PATH)
+        "armies": _load_json("%s/armies.json" % DATA_PATH),
+        "scenarios": _load_json("%s/scenarios.json" % DATA_PATH)
     }
-    _load_mod_overrides(result)
-    _build_focus_index(result.get("focus_trees", {}))
-    _validate_data(result)
-    return result
 
-func _load_mod_overrides(result: Dictionary) -> void:
+func _load_mod_overrides(result: Dictionary) -> bool:
     var dir = DirAccess.open(MOD_PATH)
     if dir == null:
-        return
+        return false
+    var mods_loaded = false
     dir.list_dir_begin()
     var name = dir.get_next()
     while name != "":
         if dir.current_is_dir() and not name.begins_with("."):
+            mods_loaded = true
             var mod_root = "%s/%s" % [MOD_PATH, name]
             _merge_data(result, _load_json("%s/countries.json" % mod_root), "countries")
             _merge_data(result, _load_json("%s/regions.json" % mod_root), "provinces")
             _merge_data(result, _load_json("%s/focus_trees.json" % mod_root), "focus_trees")
             _merge_data(result, _load_json("%s/decisions.json" % mod_root), "decisions")
             _merge_data(result, _load_json("%s/armies.json" % mod_root), "armies")
+            _merge_data(result, _load_json("%s/scenarios.json" % mod_root), "scenarios")
         name = dir.get_next()
     dir.list_dir_end()
+    return mods_loaded
 
 func _merge_data(result: Dictionary, payload: Dictionary, key: String) -> void:
     if payload.is_empty():
@@ -95,7 +111,36 @@ func _validate_data(data: Dictionary) -> void:
     var events = data.get("events", {})
     if events.size() < 80:
         errors.append("Za mało eventów: %s" % events.size())
+    var scenarios = data.get("scenarios", {})
+    if scenarios.is_empty():
+        errors.append("Brak scenariuszy.")
+    for scenario_id in scenarios.keys():
+        var scenario = scenarios[scenario_id]
+        _require_field(scenario, "id", "scenarios.%s" % scenario_id)
+        _require_field(scenario, "name", "scenarios.%s" % scenario_id)
+        _require_field(scenario, "start_date", "scenarios.%s" % scenario_id)
+        _require_field(scenario, "end_date", "scenarios.%s" % scenario_id)
+        _require_field(scenario, "playable_countries", "scenarios.%s" % scenario_id)
+        if scenario.get("id", "") != scenario_id:
+            errors.append("Scenariusz %s ma niespójne id" % scenario_id)
+        if not _is_valid_date(scenario.get("start_date", "")):
+            errors.append("Niepoprawna data startowa w scenariuszu %s" % scenario_id)
+        if not _is_valid_date(scenario.get("end_date", "")):
+            errors.append("Niepoprawna data końcowa w scenariuszu %s" % scenario_id)
+        if not scenario.get("playable_countries", []).is_empty():
+            for country_id in scenario.get("playable_countries", []):
+                if not countries.has(country_id):
+                    errors.append("Scenariusz %s: brak kraju %s" % [scenario_id, country_id])
 
 func _require_field(payload: Dictionary, field: String, context: String) -> void:
     if not payload.has(field):
         errors.append("Brak pola %s w %s" % [field, context])
+
+func _is_valid_date(value: String) -> bool:
+    var parts = value.split("-")
+    if parts.size() != 3:
+        return false
+    for part in parts:
+        if not part.is_valid_int():
+            return false
+    return true

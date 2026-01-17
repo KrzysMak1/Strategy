@@ -63,8 +63,14 @@ func _ready() -> void:
 
     _update_ui()
 
+func set_start_context(country_id: String, scenario_id: String) -> void:
+    if scenario_id != "":
+        game_state.set_scenario(scenario_id)
+    if country_id != "":
+        game_state.set_selected_country(country_id)
+
 func set_start_country(country_id: String) -> void:
-    game_state.set_selected_country(country_id)
+    set_start_context(country_id, "")
 
 func _on_tick(delta_hours: float) -> void:
     game_state.advance_time(int(delta_hours))
